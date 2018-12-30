@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="16.1.2.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" Margins="17, 5, 0, 0" PaperKind="A4" PageWidth="827" PageHeight="1169" Version="16.1" DataMember="DataSource" DataSource="#Ref-0" Dpi="100">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="0" Dpi="100" />
+    <Item2 Ref="3" ControlType="DetailBand" Name="detailBand1" Expanded="false" HeightF="0" Dpi="100" />
+    <Item3 Ref="4" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="0" Dpi="100" />
+    <Item4 Ref="5" ControlType="DetailReportBand" Name="DetailReport" Level="0" DataMember="Pickup" DataSource="#Ref-0" Dpi="100">
+      <Bands>
+        <Item1 Ref="6" ControlType="DetailBand" Name="Detail" HeightF="129.583328" Dpi="100">
+          <Controls>
+            <Item1 Ref="7" ControlType="XRLabel" Name="label6" SizeF="65.29166,23" LocationFloat="34.375, 0" Dpi="100" Font="Times New Roman, 8pt" Padding="2,2,0,0,100">
+              <DataBindings>
+                <Item1 Ref="8" FormatString="{0:#,#}" PropertyName="Text" DataMember="Pickup.OID" />
+              </DataBindings>
+              <StylePriority Ref="9" UseFont="false" />
+            </Item1>
+            <Item2 Ref="10" ControlType="XRLabel" Name="label3" Text="Ship" SizeF="34.375,23" LocationFloat="0, 0" Dpi="100" Font="Times New Roman, 8pt, style=Bold" Padding="2,2,0,0,100">
+              <StylePriority Ref="11" UseFont="false" />
+            </Item2>
+            <Item3 Ref="12" ControlType="XRTable" Name="table3" SizeF="177.19455,50" LocationFloat="614.7222, 27.4999943" Dpi="100">
+              <Rows>
+                <Item1 Ref="13" ControlType="XRTableRow" Name="tableRow11" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="14" ControlType="XRTableCell" Name="tableCell21" Weight="0.68771010381084863" Text="Date" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                      <StylePriority Ref="15" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="16" ControlType="XRTableCell" Name="tableCell22" Weight="1.4372079277483978" Dpi="100" Font="Times New Roman, 8pt">
+                      <DataBindings>
+                        <Item1 Ref="17" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="Pickup.Pickup Date" />
+                      </DataBindings>
+                      <StylePriority Ref="18" UseFont="false" />
+                    </Item2>
+                  </Cells>
+                </Item1>
+                <Item2 Ref="19" ControlType="XRTableRow" Name="tableRow12" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="20" ControlType="XRTableCell" Name="tableCell23" Weight="0.69170792696857353" Text="Weight" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                      <StylePriority Ref="21" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="22" ControlType="XRTableCell" Name="tableCell24" Weight="1.4332101045906729" Dpi="100" Font="Times New Roman, 8pt">
+                      <DataBindings>
+                        <Item1 Ref="23" FormatString="{0:#.00}" PropertyName="Text" DataMember="Pickup.Weight" />
+                      </DataBindings>
+                      <StylePriority Ref="24" UseFont="false" />
+                    </Item2>
+                  </Cells>
+                </Item2>
+              </Rows>
+            </Item3>
+            <Item4 Ref="25" ControlType="XRTable" Name="table2" SizeF="522.0554,104.166672" LocationFloat="0, 25.41666" Dpi="100">
+              <Rows>
+                <Item1 Ref="26" ControlType="XRTableRow" Name="tableRow7" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="27" ControlType="XRTableCell" Name="tableCell3" Weight="0.14293225449541569" Text="Ship Address" Dpi="100" Font="Times New Roman, 8pt, style=Bold">
+                      <StylePriority Ref="28" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="29" ControlType="XRTableCell" Name="tableCell6" Weight="0.77206106639906369" WordWrap="false" Dpi="100" Font="Times New Roman, 8pt">
+                      <DataBindings>
+                        <Item1 Ref="30" PropertyName="Text" DataMember="Pickup.Pickup Address" />
+                      </DataBindings>
+                      <StylePriority Ref="31" UseFont="false" />
+                    </Item2>
+                  </Cells>
+                </Item1>
+                <Item2 Ref="32" ControlType="XRTableRow" Name="tableRow8" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="33" ControlType="XRTableCell" Name="tableCell9" Weight="0.14293225449541569" Text="Type" Dpi="100" Font="Times New Roman, 8pt, style=Bold">
+                      <StylePriority Ref="34" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="35" ControlType="XRTableCell" Name="tableCell12" Weight="0.77206106639906369" WordWrap="false" Dpi="100" Font="Times New Roman, 8pt">
+                      <DataBindings>
+                        <Item1 Ref="36" PropertyName="Text" DataMember="Pickup.Type" />
+                      </DataBindings>
+                      <StylePriority Ref="37" UseFont="false" />
+                    </Item2>
+                  </Cells>
+                </Item2>
+                <Item3 Ref="38" ControlType="XRTableRow" Name="tableRow9" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="39" ControlType="XRTableCell" Name="tableCell15" Weight="0.14293225449541569" Text="Description" Dpi="100" Font="Times New Roman, 8pt, style=Bold">
+                      <StylePriority Ref="40" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="41" ControlType="XRTableCell" Name="tableCell18" Weight="0.77206106639906369" WordWrap="false" Dpi="100" Font="Times New Roman, 8pt">
+                      <DataBindings>
+                        <Item1 Ref="42" PropertyName="Text" DataMember="Pickup.Description" />
+                      </DataBindings>
+                      <StylePriority Ref="43" UseFont="false" />
+                    </Item2>
+                  </Cells>
+                </Item3>
+                <Item4 Ref="44" ControlType="XRTableRow" Name="tableRow10" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="45" ControlType="XRTableCell" Name="tableCell19" Weight="0.14293225449541569" Text="PO Number" Dpi="100" Font="Times New Roman, 8pt, style=Bold">
+                      <StylePriority Ref="46" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="47" ControlType="XRTableCell" Name="tableCell20" Weight="0.77206106639906369" WordWrap="false" Dpi="100" Font="Times New Roman, 8pt">
+                      <DataBindings>
+                        <Item1 Ref="48" PropertyName="Text" DataMember="Pickup.PO Number" />
+                      </DataBindings>
+                      <StylePriority Ref="49" UseFont="false" />
+                    </Item2>
+                  </Cells>
+                </Item4>
+              </Rows>
+            </Item4>
+          </Controls>
+        </Item1>
+        <Item2 Ref="50" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="0" Dpi="100" />
+        <Item3 Ref="51" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="30.125" Dpi="100">
+          <Controls>
+            <Item1 Ref="52" ControlType="XRLabel" Name="label2" Text="Ship" SizeF="804.9999,23" LocationFloat="0, 0" Dpi="100" Font="Times New Roman, 10pt, style=Bold" Padding="2,2,0,0,100">
+              <StylePriority Ref="53" UseFont="false" />
+            </Item1>
+            <Item2 Ref="54" ControlType="XRLine" Name="line1" SizeF="804.9999,2" LocationFloat="0, 28.125" Dpi="100" />
+          </Controls>
+        </Item3>
+      </Bands>
+    </Item4>
+    <Item5 Ref="55" ControlType="PageHeaderBand" Name="PageHeader" HeightF="269.7917" Dpi="100">
+      <Controls>
+        <Item1 Ref="56" ControlType="XRLabel" Name="label1" Text="Bill To" SizeF="614.055359,23.0000076" LocationFloat="0, 121.791649" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="57" UseFont="false" />
+        </Item1>
+        <Item2 Ref="58" ControlType="XRLabel" Name="label17" SizeF="513.722046,25" LocationFloat="101.000214, 244.791672" Dpi="100" Padding="2,2,0,0,100" Borders="None">
+          <DataBindings>
+            <Item1 Ref="59" PropertyName="Text" DataMember="Customer.Fax" />
+          </DataBindings>
+          <StylePriority Ref="60" UseBorders="false" />
+        </Item2>
+        <Item3 Ref="61" ControlType="XRLabel" Name="label16" Text="Fax" SizeF="100,25" LocationFloat="0, 244.791672" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="62" UseFont="false" UseBorders="false" />
+        </Item3>
+        <Item4 Ref="63" ControlType="XRLabel" Name="label14" SizeF="513.722046,24.9999847" LocationFloat="100, 219.791672" Dpi="100" Padding="2,2,0,0,100" Borders="None">
+          <DataBindings>
+            <Item1 Ref="64" PropertyName="Text" DataMember="Customer.Phone" />
+          </DataBindings>
+          <StylePriority Ref="65" UseBorders="false" />
+        </Item4>
+        <Item5 Ref="66" ControlType="XRLabel" Name="label13" Text="Phone" SizeF="100,25" LocationFloat="0, 219.791672" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="67" UseFont="false" UseBorders="false" />
+        </Item5>
+        <Item6 Ref="68" ControlType="XRLabel" Name="label11" SizeF="512.7218,25" LocationFloat="101.000214, 194.791672" Dpi="100" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="69" UseBorders="false" />
+        </Item6>
+        <Item7 Ref="70" ControlType="XRLabel" Name="label10" Text="City" SizeF="100,25" LocationFloat="0, 194.791672" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="71" UseFont="false" UseBorders="false" />
+        </Item7>
+        <Item8 Ref="72" ControlType="XRLabel" Name="label8" WordWrap="false" SizeF="514.0554,25" LocationFloat="100, 169.791672" Dpi="100" Padding="2,2,0,0,100" Borders="None">
+          <DataBindings>
+            <Item1 Ref="73" PropertyName="Text" DataMember="Customer.Address" />
+          </DataBindings>
+          <StylePriority Ref="74" UseBorders="false" />
+        </Item8>
+        <Item9 Ref="75" ControlType="XRLabel" Name="label7" Text="Addres" SizeF="100,25" LocationFloat="0, 169.791672" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="76" UseFont="false" UseBorders="false" />
+        </Item9>
+        <Item10 Ref="77" ControlType="XRLabel" Name="label5" WordWrap="false" SizeF="514.388855,25" LocationFloat="100, 144.791672" Dpi="100" Padding="2,2,0,0,100" Borders="None">
+          <DataBindings>
+            <Item1 Ref="78" PropertyName="Text" DataMember="Customer.Name" />
+          </DataBindings>
+          <StylePriority Ref="79" UseBorders="false" />
+        </Item10>
+        <Item11 Ref="80" ControlType="XRLabel" Name="label4" Text="Name" SizeF="100,25" LocationFloat="0, 144.791672" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="81" UseFont="false" UseBorders="false" />
+        </Item11>
+        <Item12 Ref="82" ControlType="XRPictureBox" Name="pictureBox1" ImageUrl="C:\Users\tuantna\Documents\logo.png" Sizing="StretchImage" SizeF="277.751434,112.826393" LocationFloat="0, 0" Dpi="100" />
+        <Item13 Ref="83" ControlType="XRTable" Name="table1" SizeF="285.4165,119.791679" LocationFloat="506.500244, 0" Dpi="100">
+          <Rows>
+            <Item1 Ref="84" ControlType="XRTableRow" Name="tableRow1" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="85" ControlType="XRTableCell" Name="tableCell1" Weight="1.7792189351564027" Text="Invoice" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="86" UseFont="false" />
+                </Item1>
+                <Item2 Ref="87" ControlType="XRTableCell" Name="tableCell2" Weight="3.5584424895649422" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="88" PropertyName="Text" DataMember="DataSource.Code" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item1>
+            <Item2 Ref="89" ControlType="XRTableRow" Name="tableRow2" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="90" ControlType="XRTableCell" Name="tableCell4" Weight="1.7792189351564027" Text="Invoice Date" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="91" UseFont="false" />
+                </Item1>
+                <Item2 Ref="92" ControlType="XRTableCell" Name="tableCell5" Weight="3.5584424895649422" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="93" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="DataSource.Invoice Date" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item2>
+            <Item3 Ref="94" ControlType="XRTableRow" Name="tableRow4" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="95" ControlType="XRTableCell" Name="tableCell10" Weight="1.7792189351564027" Text="Ship Date" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="96" UseFont="false" />
+                </Item1>
+                <Item2 Ref="97" ControlType="XRTableCell" Name="tableCell11" Weight="3.5584424895649422" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="98" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="DataSource.Shipping Date" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item3>
+            <Item4 Ref="99" ControlType="XRTableRow" Name="tableRow3" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="100" ControlType="XRTableCell" Name="tableCell7" Weight="1.7792189351564027" Text="Delivery Date" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="101" UseFont="false" />
+                </Item1>
+                <Item2 Ref="102" ControlType="XRTableCell" Name="tableCell8" Weight="3.5584424895649422" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="103" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="DataSource.Delivery Date" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item4>
+            <Item5 Ref="104" ControlType="XRTableRow" Name="tableRow5" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="105" ControlType="XRTableCell" Name="tableCell13" Weight="1.7792189351564027" Text="Terms" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="106" UseFont="false" />
+                </Item1>
+                <Item2 Ref="107" ControlType="XRTableCell" Name="tableCell14" Weight="3.5584424895649422" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="108" FormatString="{0:0.E+0.0}" PropertyName="Text" DataMember="DataSource.Term Day" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item5>
+            <Item6 Ref="109" ControlType="XRTableRow" Name="tableRow6" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="110" ControlType="XRTableCell" Name="tableCell16" Weight="1.7792189351564027" Text="W/O # (ref)" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="111" UseFont="false" />
+                </Item1>
+                <Item2 Ref="112" ControlType="XRTableCell" Name="tableCell17" Weight="3.5584424895649422" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="113" PropertyName="Text" DataMember="DataSource.External Document No_" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item6>
+          </Rows>
+        </Item13>
+      </Controls>
+    </Item5>
+    <Item6 Ref="114" ControlType="DetailReportBand" Name="DetailReport1" Level="1" DataSource="#Ref-0" Expanded="false" Dpi="100">
+      <Bands>
+        <Item1 Ref="115" ControlType="DetailBand" Name="Detail1" HeightF="123.333328" Dpi="100">
+          <Controls>
+            <Item1 Ref="116" ControlType="XRTable" Name="table5" SizeF="177.19455,50" LocationFloat="614.7222, 21.2499943" Dpi="100">
+              <Rows>
+                <Item1 Ref="117" ControlType="XRTableRow" Name="tableRow17" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="118" ControlType="XRTableCell" Name="tableCell33" Weight="0.68771010381084863" Text="Date" Dpi="100" Font="Times New Roman, 8pt, style=Bold">
+                      <StylePriority Ref="119" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="120" ControlType="XRTableCell" Name="tableCell34" Weight="1.4372079277483978" Dpi="100" Font="Times New Roman, 8pt">
+                      <DataBindings>
+                        <Item1 Ref="121" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="Delivery.Delivery Date" />
+                      </DataBindings>
+                      <StylePriority Ref="122" UseFont="false" />
+                    </Item2>
+                  </Cells>
+                </Item1>
+                <Item2 Ref="123" ControlType="XRTableRow" Name="tableRow18" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="124" ControlType="XRTableCell" Name="tableCell35" Weight="0.69170792696857353" Text="Weight" Dpi="100" Font="Times New Roman, 8pt, style=Bold">
+                      <StylePriority Ref="125" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="126" ControlType="XRTableCell" Name="tableCell36" Weight="1.4332101045906729" Dpi="100" Font="Times New Roman, 8pt">
+                      <DataBindings>
+                        <Item1 Ref="127" FormatString="{0:#.00}" PropertyName="Text" DataMember="Delivery.Weight" />
+                      </DataBindings>
+                      <StylePriority Ref="128" UseFont="false" />
+                    </Item2>
+                  </Cells>
+                </Item2>
+              </Rows>
+            </Item1>
+            <Item2 Ref="129" ControlType="XRTable" Name="table4" SizeF="580.0556,104.166672" LocationFloat="0, 19.16666" Dpi="100">
+              <Rows>
+                <Item1 Ref="130" ControlType="XRTableRow" Name="tableRow13" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="131" ControlType="XRTableCell" Name="tableCell25" Weight="0.24458774953182455" Text="Consignee Address" Dpi="100" Font="Times New Roman, 8pt, style=Bold">
+                      <StylePriority Ref="132" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="133" ControlType="XRTableCell" Name="tableCell26" Weight="0.77206106639906369" WordWrap="false" Dpi="100" Font="Times New Roman, 8pt">
+                      <DataBindings>
+                        <Item1 Ref="134" PropertyName="Text" DataMember="Delivery.Delivery Address" />
+                      </DataBindings>
+                      <StylePriority Ref="135" UseFont="false" />
+                    </Item2>
+                  </Cells>
+                </Item1>
+                <Item2 Ref="136" ControlType="XRTableRow" Name="tableRow14" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="137" ControlType="XRTableCell" Name="tableCell27" Weight="0.24458774953182455" Text="Type" Dpi="100" Font="Times New Roman, 8pt, style=Bold">
+                      <StylePriority Ref="138" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="139" ControlType="XRTableCell" Name="tableCell28" Weight="0.77206106639906369" Dpi="100" Font="Times New Roman, 8pt">
+                      <DataBindings>
+                        <Item1 Ref="140" PropertyName="Text" DataMember="Delivery.Type" />
+                      </DataBindings>
+                      <StylePriority Ref="141" UseFont="false" />
+                    </Item2>
+                  </Cells>
+                </Item2>
+                <Item3 Ref="142" ControlType="XRTableRow" Name="tableRow15" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="143" ControlType="XRTableCell" Name="tableCell29" Weight="0.24458774953182455" Text="Description" Dpi="100" Font="Times New Roman, 8pt, style=Bold">
+                      <StylePriority Ref="144" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="145" ControlType="XRTableCell" Name="tableCell30" Weight="0.77206106639906369" WordWrap="false" Dpi="100" Font="Times New Roman, 8pt">
+                      <DataBindings>
+                        <Item1 Ref="146" PropertyName="Text" DataMember="Delivery.Description" />
+                      </DataBindings>
+                      <StylePriority Ref="147" UseFont="false" />
+                    </Item2>
+                  </Cells>
+                </Item3>
+                <Item4 Ref="148" ControlType="XRTableRow" Name="tableRow16" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="149" ControlType="XRTableCell" Name="tableCell31" Weight="0.24458774953182455" Text="PO Number" Dpi="100" Font="Times New Roman, 8pt, style=Bold">
+                      <StylePriority Ref="150" UseFont="false" />
+                    </Item1>
+                    <Item2 Ref="151" ControlType="XRTableCell" Name="tableCell32" Weight="0.77206106639906369" Dpi="100" Font="Times New Roman, 8pt">
+                      <DataBindings>
+                        <Item1 Ref="152" PropertyName="Text" DataMember="Delivery.PO Number" />
+                      </DataBindings>
+                      <StylePriority Ref="153" UseFont="false" />
+                    </Item2>
+                  </Cells>
+                </Item4>
+              </Rows>
+            </Item2>
+            <Item3 Ref="154" ControlType="XRLabel" Name="label15" SizeF="57.3334961,19.166666" LocationFloat="81.88429, 0" Dpi="100" Padding="2,2,0,0,100">
+              <DataBindings>
+                <Item1 Ref="155" FormatString="{0:#,#}" PropertyName="Text" DataMember="Delivery.OID" />
+              </DataBindings>
+            </Item3>
+            <Item4 Ref="156" ControlType="XRLabel" Name="label12" Text="Consignee" SizeF="81.88428,19.166666" LocationFloat="0, 0" Dpi="100" Font="Times New Roman, 8pt, style=Bold" Padding="2,2,0,0,100">
+              <StylePriority Ref="157" UseFont="false" />
+            </Item4>
+          </Controls>
+        </Item1>
+        <Item2 Ref="158" ControlType="GroupHeaderBand" Name="GroupHeader2" HeightF="28.3333569" Dpi="100">
+          <Controls>
+            <Item1 Ref="159" ControlType="XRLine" Name="line2" SizeF="804.9999,9.166664" LocationFloat="0, 19.1666927" Dpi="100" />
+            <Item2 Ref="160" ControlType="XRLabel" Name="label9" Text="Consignee" SizeF="100,19.166666" LocationFloat="0, 0" Dpi="100" Font="Times New Roman, 10pt, style=Bold" Padding="2,2,0,0,100">
+              <StylePriority Ref="161" UseFont="false" />
+            </Item2>
+          </Controls>
+        </Item2>
+      </Bands>
+    </Item6>
+    <Item7 Ref="162" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="317.7083" Dpi="100">
+      <Controls>
+        <Item1 Ref="163" ControlType="XRLabel" Name="label30" WordWrap="false" SizeF="216.277832,23" LocationFloat="588.722168, 97.12499" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="164" PropertyName="Text" DataMember="DataSource.Car Number" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="165" ControlType="XRLine" Name="line4" SizeF="804.999756,5.125" LocationFloat="0.000127156571, 0" Dpi="100" />
+        <Item3 Ref="166" ControlType="XRLabel" Name="label29" WordWrap="false" SizeF="174.178986,23" LocationFloat="414.543152, 97.12499" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="167" PropertyName="Text" DataMember="DataSource.Car Name" />
+          </DataBindings>
+        </Item3>
+        <Item4 Ref="168" ControlType="XRLabel" Name="label28" SizeF="276.751221,23" LocationFloat="100.667, 74.12497" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="169" FormatString="{0:$0.00}" PropertyName="Text" DataMember="DataSource.Amount Sales" />
+          </DataBindings>
+        </Item4>
+        <Item5 Ref="170" ControlType="XRLabel" Name="label27" Text="Gold Lane Trucking corporation, 10982 Cypress ave, Riverside CA 92505" TextAlignment="TopCenter" SizeF="804.333069,20.999939" LocationFloat="0.6669362, 296.708374" Dpi="100" Padding="2,2,0,0,100">
+          <StylePriority Ref="171" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="172" ControlType="XRLine" Name="line3" SizeF="804.9999,2" LocationFloat="0.000127156571, 294.7083" Dpi="100" />
+        <Item7 Ref="173" ControlType="XRLabel" Name="label26" Text="Thank you for your business" TextAlignment="TopCenter" SizeF="318.7499,18.8333435" LocationFloat="486.250122, 275.874969" Dpi="100" Font="Times New Roman, 9.75pt, style=Italic" Padding="2,2,0,0,100">
+          <StylePriority Ref="174" UseFont="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="175" ControlType="XRLabel" Name="label25" Text="Notes:" SizeF="100,23.0000076" LocationFloat="1.00034082, 120.125008" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="176" UseFont="false" />
+        </Item8>
+        <Item9 Ref="177" ControlType="XRLabel" Name="label24" Text="Truck" SizeF="100,23" LocationFloat="277.418243, 97.12499" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="178" UseFont="false" />
+        </Item9>
+        <Item10 Ref="179" ControlType="XRLabel" Name="label23" SizeF="176.417877,23" LocationFloat="101.000343, 97.12499" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="180" PropertyName="Text" DataMember="DataSource.Driver Name" />
+          </DataBindings>
+        </Item10>
+        <Item11 Ref="181" ControlType="XRLabel" Name="label22" Text="Driver" SizeF="100,23" LocationFloat="0.000127156571, 97.12499" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="182" UseFont="false" />
+        </Item11>
+        <Item12 Ref="183" ControlType="XRLabel" Name="label21" Text="Total Rate" SizeF="100,23.0000019" LocationFloat="0.000127156571, 74.12497" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="184" UseFont="false" />
+        </Item12>
+        <Item13 Ref="185" ControlType="XRLabel" Name="label20" Text="Line Haul" SizeF="100,23.0000019" LocationFloat="0.000127156571, 51.12497" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="186" UseFont="false" />
+        </Item13>
+        <Item14 Ref="187" ControlType="XRLabel" Name="label19" Text="Lumper" SizeF="100,23.0000019" LocationFloat="0.000127156571, 28.1249523" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="188" UseFont="false" />
+        </Item14>
+        <Item15 Ref="189" ControlType="XRLabel" Name="label18" Text="Rates And Charges" SizeF="191.666656,23" LocationFloat="0.000127156571, 5.124998" Dpi="100" Font="Times New Roman, 10pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="190" UseFont="false" />
+        </Item15>
+      </Controls>
+    </Item7>
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v16.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

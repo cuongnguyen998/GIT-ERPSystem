@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="15.1.5.0" Ref="1" Name="TReportDesign" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataMember="DataSource" DataSource="#Ref-0" Margins="100, 100, 155, 100" Version="15.1" PageWidth="850" PageHeight="1100">
+  <Bands>
+    <Item1 Ref="2" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="23">
+      <Controls>
+        <Item1 Ref="3" ControlType="XRLabel" Name="label13" LocationFloat="2.08333325, 0" SizeF="100,23" Borders="All" Padding="2,2,0,0,100" Text="label13">
+          <DataBindings>
+            <Item1 Ref="4" PropertyName="Text" DataMember="DataSource.Item Code" />
+          </DataBindings>
+          <StylePriority Ref="5" UseBorders="false" />
+        </Item1>
+        <Item2 Ref="6" ControlType="XRLabel" Name="label20" LocationFloat="200.000031, 0" SizeF="100,23" Borders="All" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="7" FormatString="{0:#,#}" PropertyName="Text" DataMember="DataSource.Quantity" />
+          </DataBindings>
+          <StylePriority Ref="8" UseBorders="false" />
+        </Item2>
+        <Item3 Ref="9" ControlType="XRLabel" Name="label17" LocationFloat="500, 0" SizeF="100,23" Borders="All" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="10" FormatString="{0:#,#}" PropertyName="Text" DataMember="DataSource.Amount LCY" />
+          </DataBindings>
+          <StylePriority Ref="11" UseBorders="false" />
+          <Summary Ref="12" FormatString="{0:#.00}" />
+        </Item3>
+        <Item4 Ref="13" ControlType="XRLabel" Name="label16" LocationFloat="400, 0" SizeF="100,23" Borders="All" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="14" FormatString="{0:#,#}" PropertyName="Text" DataMember="DataSource.Amount" />
+          </DataBindings>
+          <StylePriority Ref="15" UseBorders="false" />
+          <Summary Ref="16" FormatString="{0:#.00}" />
+        </Item4>
+        <Item5 Ref="17" ControlType="XRLabel" Name="label15" LocationFloat="300, 0" SizeF="100,23" XlsxFormatString="{0:#}" Borders="All" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="18" FormatString="{0:#,#}" PropertyName="Text" DataMember="DataSource.Unit Cost" />
+          </DataBindings>
+          <StylePriority Ref="19" UseBorders="false" />
+          <Summary Ref="20" FormatString="{0:#.00}" />
+        </Item5>
+        <Item6 Ref="21" ControlType="XRLabel" Name="label14" LocationFloat="100, 0" SizeF="100,23" Borders="All" Padding="2,2,0,0,100" Text="label14">
+          <DataBindings>
+            <Item1 Ref="22" PropertyName="Text" DataMember="DataSource.Lot Code" />
+          </DataBindings>
+          <StylePriority Ref="23" UseBorders="false" />
+        </Item6>
+      </Controls>
+    </Item1>
+    <Item2 Ref="24" ControlType="TopMarginBand" Name="TopMargin" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="155.208328">
+      <Controls>
+        <Item1 Ref="25" ControlType="XRLabel" Name="label19" LocationFloat="100, 107.500015" SizeF="547.916748,23" Padding="2,2,0,0,100" Text="label19">
+          <DataBindings>
+            <Item1 Ref="26" PropertyName="Text" DataMember="DataSource.Buy-from Vendor Name" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="27" ControlType="XRLabel" Name="label12" LocationFloat="100, 84.50001" SizeF="547.916748,23.0000076" Padding="2,2,0,0,100" Text="label12">
+          <DataBindings>
+            <Item1 Ref="28" PropertyName="Text" DataMember="DataSource.Buy-from Vendor No_" />
+          </DataBindings>
+        </Item2>
+        <Item3 Ref="29" ControlType="XRLabel" Name="label11" LocationFloat="100, 61.5000076" SizeF="547.916748,23" Padding="2,2,0,0,100" Text="label11">
+          <DataBindings>
+            <Item1 Ref="30" PropertyName="Text" DataMember="DataSource.Code" />
+          </DataBindings>
+        </Item3>
+        <Item4 Ref="31" ControlType="XRLabel" Name="label10" LocationFloat="0, 107.500015" SizeF="100,23" Padding="2,2,0,0,100" Text="Tên NCC" />
+        <Item5 Ref="32" ControlType="XRLabel" Name="label9" LocationFloat="0, 84.50001" SizeF="100,23" Padding="2,2,0,0,100" Text="Mã NCC" />
+        <Item6 Ref="33" ControlType="XRLabel" Name="label8" LocationFloat="0, 61.5000076" SizeF="100,23" Padding="2,2,0,0,100" Text="Mã ĐH mua" />
+        <Item7 Ref="34" ControlType="XRLabel" Name="label7" LocationFloat="500, 131.791656" SizeF="100.000031,22.375" Borders="All" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Text="Số tiền VND">
+          <StylePriority Ref="35" UseFont="false" UseBorders="false" />
+        </Item7>
+        <Item8 Ref="36" ControlType="XRLabel" Name="label6" LocationFloat="400, 131.791656" SizeF="100,22.375" Borders="All" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Text="Số tiền">
+          <StylePriority Ref="37" UseFont="false" UseBorders="false" />
+        </Item8>
+        <Item9 Ref="38" ControlType="XRLabel" Name="label5" LocationFloat="300, 131.791656" SizeF="100,22.375" Borders="All" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Text="Đơn giá">
+          <StylePriority Ref="39" UseFont="false" UseBorders="false" />
+        </Item9>
+        <Item10 Ref="40" ControlType="XRLabel" Name="label4" LocationFloat="200, 131.791656" SizeF="99.9999847,22.375" Borders="All" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Text="Số lượng">
+          <StylePriority Ref="41" UseFont="false" UseBorders="false" />
+        </Item10>
+        <Item11 Ref="42" ControlType="XRLabel" Name="label3" LocationFloat="100, 131.791656" SizeF="100.000008,22.375" Borders="All" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Text="Số Lô">
+          <StylePriority Ref="43" UseFont="false" UseBorders="false" />
+        </Item11>
+        <Item12 Ref="44" ControlType="XRLabel" Name="label2" LocationFloat="0, 131.791656" SizeF="100,22.375" Borders="All" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Text="Mã SP">
+          <StylePriority Ref="45" UseFont="false" UseBorders="false" />
+        </Item12>
+        <Item13 Ref="46" ControlType="XRLabel" Name="label1" LocationFloat="2.08333325, 10.3750067" SizeF="645.8334,51.125" TextAlignment="TopCenter" Font="Times New Roman, 20pt, style=Bold" Padding="2,2,0,0,100" Text="ĐƠN HÀNG MUA">
+          <StylePriority Ref="47" UseFont="false" UseTextAlignment="false" />
+        </Item13>
+      </Controls>
+    </Item2>
+    <Item3 Ref="48" ControlType="BottomMarginBand" Name="BottomMargin" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="100" />
+    <Item4 Ref="49" ControlType="PageFooterBand" Name="PageFooter" HeightF="25.0000134">
+      <Controls>
+        <Item1 Ref="50" Name="line1" ControlType="XRLine" SizeF="650,2" LocationFloat="2.08333325, 0" />
+        <Item2 Ref="51" ControlType="XRPageInfo" Name="pageInfo1" LocationFloat="448.958344, 2.000014" SizeF="100,23" Padding="2,2,0,0,100" />
+        <Item3 Ref="52" ControlType="XRLabel" Name="label18" LocationFloat="548.9583, 2.000014" SizeF="100,23" Padding="2,2,0,0,100" Text="Version 1.0" />
+      </Controls>
+    </Item4>
+  </Bands>
+  <FormattingRuleSheet>
+    <Item1 Ref="53" Name="formattingRule1">
+      <Formatting Ref="54" StringFormat="Near;Near;0;None;Character;Default" BorderStyle="Inset" />
+    </Item1>
+  </FormattingRuleSheet>
+  <StyleSheet>
+    <Item1 Ref="55" Name="controlStyle1" TextAlignment="MiddleCenter" StringFormat="Center;Center;0;None;Character;Default" BorderStyle="Inset" />
+  </StyleSheet>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v15.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

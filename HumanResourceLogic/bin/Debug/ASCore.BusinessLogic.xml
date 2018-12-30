@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASCore.BusinessLogic
+</name>
+</assembly>
+<members>
+<member name="M:ASCore.BusinessLogic.TSystem.GetSourceName(ASCore.BusinessLogic.TEnumDefind.enumSourceType)">
+	<summary>
+ GET ALL TABLE OR VIEW IN DATABASE
+ </summary>
+	<returns></returns>
+	<remarks>DONE</remarks>
+</member><member name="M:ASCore.BusinessLogic.TSystem.GetFieldListInSource(System.String)">
+	<summary>
+ GET ALL FIELD IN DATATABLE
+ </summary>
+	<param name="SourceName">Tablename</param>
+	<returns></returns>
+	<remarks>DONE</remarks>
+</member><member name="M:ASCore.BusinessLogic.TSystem.GetAllObjectByType(ASCore.BusinessLogic.TEnumDefind.enumObjectType)">
+	<summary>
+ GET ALL OBJECT IN FOLDER BY TYPE
+ </summary>
+	<param name="ObjType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.BusinessLogic.TSystem.GetCountFile(System.String,ASCore.BusinessLogic.TEnumDefind.enumObjectType)">
+	<summary>
+ GET OBJECT BY NAME AND TYPE
+ </summary>
+	<param name="ObjName"></param>
+	<param name="ObjType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.BusinessLogic.TSystem.GetObjectByName(System.String,ASCore.BusinessLogic.TEnumDefind.enumObjectType)">
+	<summary>
+ GET OBJECT BY NAME AND TYPE
+ </summary>
+	<param name="ObjName"></param>
+	<param name="ObjType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ASCore.BusinessLogic.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ASCore.BusinessLogic.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ASCore.BusinessLogic.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Asset_Report
+</name>
+</assembly>
+<members>
+<member name="P:Asset_Report.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Asset_Report.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Asset_Report.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Asset_Report.AM1001.GetAssetKHHT(System.String,System.String)">
+	<summary>
+ Du lieu khau hao hien tai
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1001.GetAssetKHDK(System.String)">
+	<summary>
+ Du lieu khau hao dau ky
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1001.GetAssetAmountDK(System.String)">
+	<summary>
+ Danh sach gia tri tai san dau ky
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1001.GetAssetPurchaseAmount(System.String)">
+	<summary>
+ Danh sach Nguyen gia mua tai san ban dau
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1001.GetAsset(System.String)">
+	<summary>
+ Lay danh sach tai san de tinh khau hao
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1001.GetGLDepartment(System.String)">
+	<summary>
+ Tim kiem Tai khoan ke toan chi phi de doi ugn KH------
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1001.CreateDate(System.Data.DataTable@)">
+	<summary>
+ Tao bang danh muc chinh
+ </summary>
+	<param name="tmpDataTable"></param>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1002.GetAssetKHHTN(System.String,System.String)">
+	<summary>
+ Du lieu khau hao hien tai N
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1002.GetAssetKHHTC(System.String,System.String)">
+	<summary>
+ Du lieu khau hao hien tai C
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1002.GetAssetKHDK(System.String)">
+	<summary>
+ Du lieu khau hao dau ky
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1002.GetAssetAmountDK(System.String)">
+	<summary>
+ Danh sach gia tri tai san dau ky
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1002.GetAssetAmountTTK(System.String,System.String)">
+	<summary>
+ Danh sach gia tri tang trong ky
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1002.GetAssetAmountGTK(System.String,System.String)">
+	<summary>
+ Danh sach gia tri giam trong ky
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1002.GetGLDepartment(System.String)">
+	<summary>
+ Tim kiem Tai khoan ke toan chi phi de doi ugn KH------
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Asset_Report.AM1002.GetAsset(System.String)">
+	<summary>
+ Lay danh sach tai san de tinh khau hao
+ </summary>
+	<param name="FFFromDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

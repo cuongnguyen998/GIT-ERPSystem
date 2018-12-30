@@ -1,0 +1,20 @@
+D:\Working\Company Tuan\Soft\Solution Complite Git\Server\bin\Test_Logic.dll
+D:\Working\Company Tuan\Soft\Solution Complite Git\Server\bin\Test_Logic.pdb
+D:\Working\Company Tuan\Soft\Solution Complite Git\Server\bin\Test_Logic.xml
+D:\Working\Company Tuan\Soft\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.vbprojResolveAssemblyReference.cache
+D:\Working\Company Tuan\Soft\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.Resources.resources
+D:\Working\Company Tuan\Soft\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.vbproj.GenerateResource.Cache
+D:\Working\Company Tuan\Soft\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.dll
+D:\Working\Company Tuan\Soft\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.xml
+D:\Working\Company Tuan\Soft\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.pdb
+E:\eAcademy\Solution Complite Git\Server\bin\Test_Logic.dll
+E:\eAcademy\Solution Complite Git\Server\bin\Test_Logic.pdb
+E:\eAcademy\Solution Complite Git\Server\bin\Test_Logic.xml
+E:\eAcademy\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.vbprojAssemblyReference.cache
+E:\eAcademy\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.Resources.resources
+E:\eAcademy\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.vbproj.GenerateResource.cache
+E:\eAcademy\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.vbproj.CoreCompileInputs.cache
+E:\eAcademy\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.vbproj.CopyComplete
+E:\eAcademy\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.dll
+E:\eAcademy\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.xml
+E:\eAcademy\Solution Complite Git\Test_Logic\obj\Debug\Test_Logic.pdb

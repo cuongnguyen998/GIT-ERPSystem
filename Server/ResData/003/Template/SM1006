@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="15.1.5.0" Ref="1" Name="XtraReport" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataSource="#Ref-0" DataMember="DataSource" Version="15.1" PageWidth="1268" PageHeight="1752" PaperKind="A3Extra" Margins="15, 33, 278, 0">
+  <Bands>
+    <Item1 Ref="2" Name="topMarginBand1" ControlType="TopMarginBand" HeightF="278">
+      <Controls>
+        <Item1 Ref="3" Name="barCode1" ControlType="XRBarCode" Padding="10,10,0,0,100" SizeF="372.5,118.458336" LocationFloat="802.000061, 0" AutoModule="true">
+          <Symbology Ref="4" Name="Code128" />
+          <DataBindings>
+            <Item1 Ref="5" PropertyName="Text" DataMember="DataSource.Code" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="6" Name="table2" ControlType="XRTable" SizeF="801.999939,24.9999847" LocationFloat="0, 252.615677" Borders="All">
+          <Rows>
+            <Item1 Ref="7" ControlType="XRTableRow" Name="tableRow4" Weight="1">
+              <Cells>
+                <Item1 Ref="8" Name="tableCell13" ControlType="XRTableCell" Font="Times New Roman, 10pt, style=Bold" Text="STT" TextAlignment="TopCenter" Weight="0.22729618257878087">
+                  <StylePriority Ref="9" UseFont="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="10" Name="tableCell14" ControlType="XRTableCell" Font="Times New Roman, 10pt, style=Bold" Text="Sản phẩm-mô tả" TextAlignment="TopCenter" Weight="1.088217120476672">
+                  <StylePriority Ref="11" UseFont="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="12" Name="tableCell15" ControlType="XRTableCell" Font="Times New Roman, 10pt, style=Bold" Text="ĐVT" TextAlignment="TopCenter" Weight="0.1882269808659858">
+                  <StylePriority Ref="13" UseFont="false" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="14" Name="tableCell22" ControlType="XRTableCell" Font="Times New Roman, 10pt, style=Bold" Text="Bảo hành" TextAlignment="TopCenter" Weight="0.25576641345593881">
+                  <StylePriority Ref="15" UseFont="false" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="16" Name="tableCell21" ControlType="XRTableCell" Font="Times New Roman, 10pt, style=Bold" Text="Số lượng" TextAlignment="TopCenter" Weight="0.49049399742124389">
+                  <StylePriority Ref="17" UseFont="false" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="18" Name="tableCell23" ControlType="XRTableCell" Font="Times New Roman, 10pt, style=Bold" Text="Đơn giá" TextAlignment="TopCenter" Weight="0.38471329263555393">
+                  <StylePriority Ref="19" UseFont="false" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="20" Name="tableCell16" ControlType="XRTableCell" Font="Times New Roman, 10pt, style=Bold" Text="Thành tiền" TextAlignment="TopCenter" Weight="0.36528635804759324">
+                  <StylePriority Ref="21" UseFont="false" UseTextAlignment="false" />
+                </Item7>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="22" UseBorders="false" />
+        </Item2>
+        <Item3 Ref="23" Name="label8" ControlType="XRLabel" SizeF="802.0001,45.916687" LocationFloat="0, 206.69899" Padding="2,2,0,0,100" Multiline="true" Text="Cảm ơn quí khách đã quan tâm, sử dụng sản phẩm và dịch vụ của công ty chúng tôi.&#xD;&#xA;Chúng tôi trân trọng gửi đến quí khách hàng phiếu báo giá theo yêu cầu của qúi khách như sau:" />
+        <Item4 Ref="24" Name="label7" ControlType="XRLabel" SizeF="600.9583,23.0000019" LocationFloat="201.041672, 23.0000019" Padding="2,2,0,0,100" Text="label7">
+          <DataBindings>
+            <Item1 Ref="25" PropertyName="Text" DataMember="tblCompany.Address" />
+          </DataBindings>
+        </Item4>
+        <Item5 Ref="26" Name="label6" ControlType="XRLabel" SizeF="600.958252,22.9999962" LocationFloat="201.041672, 46.0000038" Padding="2,2,0,0,100" Text="label6">
+          <DataBindings>
+            <Item1 Ref="27" PropertyName="Text" DataMember="tblCompany.Phone" />
+          </DataBindings>
+        </Item5>
+        <Item6 Ref="28" Name="label5" ControlType="XRLabel" SizeF="600.9583,23.0000019" LocationFloat="201.041672, 0" Padding="2,2,0,0,100" Text="label5">
+          <DataBindings>
+            <Item1 Ref="29" PropertyName="Text" DataMember="tblCompany.Name" />
+          </DataBindings>
+        </Item6>
+        <Item7 Ref="30" Name="table1" ControlType="XRTable" SizeF="802.000061,109.490616" LocationFloat="0, 97.20835">
+          <Rows>
+            <Item1 Ref="31" ControlType="XRTableRow" Name="tableRow1" Weight="0.39473689282700619">
+              <Cells>
+                <Item1 Ref="32" Name="tableCell1" ControlType="XRTableCell" Font="Times New Roman, 9.75pt, style=Bold" Text="Khách hàng" Weight="0.50394837738365161">
+                  <StylePriority Ref="33" UseFont="false" />
+                </Item1>
+                <Item2 Ref="34" Name="tableCell2" ControlType="XRTableCell" Weight="2.2638084567458656">
+                  <DataBindings>
+                    <Item1 Ref="35" PropertyName="Text" DataMember="ResultTable.Name" />
+                  </DataBindings>
+                </Item2>
+                <Item3 Ref="36" Name="tableCell3" ControlType="XRTableCell" Font="Times New Roman, 9.75pt, style=Bold" Text="Ngày" Weight="0.23224316587048263">
+                  <StylePriority Ref="37" UseFont="false" />
+                </Item3>
+                <Item4 Ref="38" Name="tableCell10" ControlType="XRTableCell" Weight="1">
+                  <DataBindings>
+                    <Item1 Ref="39" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="DataSource.Posting Date" />
+                  </DataBindings>
+                </Item4>
+              </Cells>
+            </Item1>
+            <Item2 Ref="40" ControlType="XRTableRow" Name="tableRow3" Weight="0.45029244838256188">
+              <Cells>
+                <Item1 Ref="41" Name="tableCell7" ControlType="XRTableCell" Font="Times New Roman, 9.75pt, style=Bold" Text="Địa chỉ" Weight="0.50394829698608878">
+                  <StylePriority Ref="42" UseFont="false" />
+                </Item1>
+                <Item2 Ref="43" Name="tableCell8" ControlType="XRTableCell" Weight="2.263807928313986">
+                  <DataBindings>
+                    <Item1 Ref="44" PropertyName="Text" DataMember="ResultTable.Address" />
+                  </DataBindings>
+                </Item2>
+                <Item3 Ref="45" Name="tableCell9" ControlType="XRTableCell" Font="Times New Roman, 9.75pt, style=Bold" Text="Số" Weight="0.23224377469992508">
+                  <StylePriority Ref="46" UseFont="false" />
+                </Item3>
+                <Item4 Ref="47" Name="tableCell11" ControlType="XRTableCell" Weight="1">
+                  <DataBindings>
+                    <Item1 Ref="48" PropertyName="Text" DataMember="DataSource.Code" />
+                  </DataBindings>
+                </Item4>
+              </Cells>
+            </Item2>
+            <Item3 Ref="49" ControlType="XRTableRow" Name="tableRow2" Weight="0.26900509727141975">
+              <Cells>
+                <Item1 Ref="50" Name="tableCell4" ControlType="XRTableCell" Font="Times New Roman, 9.75pt, style=Bold" Text="Điện thoại" Weight="0.50394829698608878">
+                  <StylePriority Ref="51" UseFont="false" />
+                </Item1>
+                <Item2 Ref="52" Name="tableCell5" ControlType="XRTableCell" Weight="2.0559949570657281">
+                  <DataBindings>
+                    <Item1 Ref="53" PropertyName="Text" DataMember="ResultTable.Phone" />
+                  </DataBindings>
+                </Item2>
+                <Item3 Ref="54" Name="tableCell6" ControlType="XRTableCell" Font="Times New Roman, 9.75pt, style=Bold" Text="Fax" Weight="0.440056745948183">
+                  <StylePriority Ref="55" UseFont="false" />
+                </Item3>
+                <Item4 Ref="56" Name="tableCell12" ControlType="XRTableCell" Weight="1">
+                  <DataBindings>
+                    <Item1 Ref="57" PropertyName="Text" DataMember="ResultTable.Fax" />
+                  </DataBindings>
+                </Item4>
+              </Cells>
+            </Item3>
+            <Item4 Ref="58" ControlType="XRTableRow" Name="tableRow5" Weight="0.26900509727141975">
+              <Cells>
+                <Item1 Ref="59" Name="tableCell17" ControlType="XRTableCell" Font="Times New Roman, 9.75pt, style=Bold" Text="Người liên hệ" Weight="0.50394837308976914">
+                  <StylePriority Ref="60" UseFont="false" />
+                </Item1>
+                <Item2 Ref="61" Name="tableCell18" ControlType="XRTableCell" Weight="2.0559930544737206">
+                  <DataBindings>
+                    <Item1 Ref="62" PropertyName="Text" DataMember="ResultTable.Search Name" />
+                  </DataBindings>
+                </Item2>
+                <Item3 Ref="63" Name="tableCell19" ControlType="XRTableCell" Font="Times New Roman, 9.75pt, style=Bold" Text="Email" Weight="0.44005857243651036">
+                  <StylePriority Ref="64" UseFont="false" />
+                </Item3>
+                <Item4 Ref="65" Name="tableCell20" ControlType="XRTableCell" Weight="1">
+                  <DataBindings>
+                    <Item1 Ref="66" PropertyName="Text" DataMember="ResultTable.Email" />
+                  </DataBindings>
+                </Item4>
+              </Cells>
+            </Item4>
+          </Rows>
+        </Item7>
+        <Item8 Ref="67" Name="label4" ControlType="XRLabel" SizeF="802,28.2083359" LocationFloat="0, 69.00001" Font="Times New Roman, 14pt, style=Bold" ForeColor="Blue" Padding="2,2,0,0,100" TextAlignment="TopCenter" Text="BẢNG BÁO GIÁ">
+          <StylePriority Ref="68" UseFont="false" UseForeColor="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="69" Name="label1" ControlType="XRLabel" SizeF="100,23" LocationFloat="101.041664, 0" Padding="2,2,0,0,100" Text="Công ty" />
+        <Item10 Ref="70" Name="label3" ControlType="XRLabel" SizeF="100,23" LocationFloat="101.041664, 46.0000038" Padding="2,2,0,0,100" Text="SĐT" />
+        <Item11 Ref="71" Name="label2" ControlType="XRLabel" SizeF="100,23" LocationFloat="101.041664, 23.0000019" Padding="2,2,0,0,100" Text="Địa chỉ" />
+        <Item12 Ref="72" Name="pictureBox1" ControlType="XRPictureBox" SizeF="101.041664,69" LocationFloat="0, 0" Sizing="Squeeze" Image="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" />
+      </Controls>
+    </Item1>
+    <Item2 Ref="73" ControlType="DetailBand" Name="detailBand1" HeightF="24.9999847">
+      <Controls>
+        <Item1 Ref="74" Name="table3" ControlType="XRTable" SizeF="801.999939,24.9999847" LocationFloat="0.000190734878, 0" Font="Times New Roman, 8pt" Borders="All">
+          <Rows>
+            <Item1 Ref="75" ControlType="XRTableRow" Name="tableRow6" Weight="1">
+              <Cells>
+                <Item1 Ref="76" Name="tableCell24" ControlType="XRTableCell" Font="Times New Roman, 10pt, style=Bold" TextAlignment="TopCenter" Weight="0.22729618257878087">
+                  <StylePriority Ref="77" UseFont="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="78" Name="tableCell25" ControlType="XRTableCell" Font="Times New Roman, 10pt" TextAlignment="TopLeft" Weight="1.088217120476672">
+                  <DataBindings>
+                    <Item1 Ref="79" PropertyName="Text" DataMember="DataSource.Item Name" />
+                  </DataBindings>
+                  <StylePriority Ref="80" UseFont="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="81" Name="tableCell26" ControlType="XRTableCell" Font="Times New Roman, 10pt" TextAlignment="TopLeft" Weight="0.1882269808659858">
+                  <DataBindings>
+                    <Item1 Ref="82" PropertyName="Text" DataMember="DataSource.Unit Of Measure" />
+                  </DataBindings>
+                  <StylePriority Ref="83" UseFont="false" UseTextAlignment="false" />
+                </Item3>
+                <Item4 Ref="84" Name="tableCell27" ControlType="XRTableCell" Font="Times New Roman, 10pt" Text="	" TextAlignment="TopCenter" Weight="0.25576641345593881">
+                  <StylePriority Ref="85" UseFont="false" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="86" Name="tableCell28" ControlType="XRTableCell" Font="Times New Roman, 10pt" TextAlignment="TopRight" Weight="0.49049399742124389">
+                  <DataBindings>
+                    <Item1 Ref="87" FormatString="{0:n1}" PropertyName="Text" DataMember="DataSource.Quantity" />
+                  </DataBindings>
+                  <StylePriority Ref="88" UseFont="false" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="89" Name="tableCell29" ControlType="XRTableCell" Font="Times New Roman, 10pt" TextAlignment="TopRight" Weight="0.38471329263555393">
+                  <DataBindings>
+                    <Item1 Ref="90" FormatString="{0:n1}" PropertyName="Text" DataMember="DataSource.Unit Price" />
+                  </DataBindings>
+                  <StylePriority Ref="91" UseFont="false" UseTextAlignment="false" />
+                </Item6>
+                <Item7 Ref="92" Name="tableCell30" ControlType="XRTableCell" Font="Times New Roman, 10pt" TextAlignment="TopRight" Weight="0.36528635804759324">
+                  <DataBindings>
+                    <Item1 Ref="93" FormatString="{0:n1}" PropertyName="Text" DataMember="DataSource.Amount" />
+                  </DataBindings>
+                  <StylePriority Ref="94" UseFont="false" UseTextAlignment="false" />
+                </Item7>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="95" UseFont="false" UseBorders="false" />
+        </Item1>
+      </Controls>
+    </Item2>
+    <Item3 Ref="96" Name="bottomMarginBand1" ControlType="BottomMarginBand" HeightF="0" />
+    <Item4 Ref="97" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="0">
+      <GroupFields>
+        <Item1 Ref="98" FieldName="Code" />
+      </GroupFields>
+    </Item4>
+    <Item5 Ref="99" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="452.833374">
+      <Controls>
+        <Item1 Ref="100" Name="label9" ControlType="XRLabel" SizeF="600.4583,23.0000076" LocationFloat="0, 0" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Tổng cộng">
+          <StylePriority Ref="101" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="102" Name="label10" ControlType="XRLabel" SizeF="600.4583,23.0000076" LocationFloat="0, 23.0000172" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Thuể VAT">
+          <StylePriority Ref="103" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="104" Name="label11" ControlType="XRLabel" SizeF="600.4586,23.0000076" LocationFloat="1.04160309, 46.0000343" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Tiền bao gồm VAT">
+          <StylePriority Ref="105" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="106" Name="label12" ControlType="XRLabel" SizeF="200.500183,22.9999866" LocationFloat="600.4583, 0" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopRight">
+          <DataBindings>
+            <Item1 Ref="107" PropertyName="Text" DataMember="DataSource.Amount" />
+          </DataBindings>
+          <StylePriority Ref="108" UseBorders="false" UseTextAlignment="false" />
+          <Summary Ref="109" FormatString="{0:n1}" Running="Group" />
+        </Item4>
+        <Item5 Ref="110" Name="label13" ControlType="XRLabel" SizeF="200.499939,22.9999866" LocationFloat="600.4583, 22.9999866" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopRight">
+          <DataBindings>
+            <Item1 Ref="111" PropertyName="Text" DataMember="DataSource.VAT Amount" />
+          </DataBindings>
+          <StylePriority Ref="112" UseBorders="false" UseTextAlignment="false" />
+          <Summary Ref="113" FormatString="{0:n1}" Running="Group" />
+        </Item5>
+        <Item6 Ref="114" Name="label14" ControlType="XRLabel" SizeF="200.500244,22.99998" LocationFloat="601.500244, 46.00007" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopRight">
+          <DataBindings>
+            <Item1 Ref="115" PropertyName="Text" DataMember="DataSource.Amount Including VAT" />
+          </DataBindings>
+          <StylePriority Ref="116" UseBorders="false" UseTextAlignment="false" />
+          <Summary Ref="117" FormatString="{0:n1}" Running="Group" />
+        </Item6>
+        <Item7 Ref="118" Name="label15" ControlType="XRLabel" SizeF="800.9585,22.9999847" LocationFloat="1.04201639, 69.00005" Font="Times New Roman, 11pt, style=Bold" ForeColor="Blue" Padding="2,2,0,0,100" Text="ĐIỀU KHOẢN VÀ ĐIỀU KIỆN">
+          <StylePriority Ref="119" UseFont="false" UseForeColor="false" />
+        </Item7>
+        <Item8 Ref="120" Name="table4" ControlType="XRTable" SizeF="800.958557,212.499985" LocationFloat="1.04201639, 92.00004">
+          <Rows>
+            <Item1 Ref="121" ControlType="XRTableRow" Name="tableRow7" Weight="1">
+              <Cells>
+                <Item1 Ref="122" Name="tableCell31" ControlType="XRTableCell" Text="1" TextAlignment="TopCenter" Weight="0.22916671752929696">
+                  <StylePriority Ref="123" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="124" Name="tableCell32" ControlType="XRTableCell" Text="Báo giá có giá trị trong vòng 15 ngày; Báo giá đã bao gồm thuế VAT (10%)" Weight="7.7804188537597661" />
+              </Cells>
+            </Item1>
+            <Item2 Ref="125" ControlType="XRTableRow" Name="tableRow8" Weight="1">
+              <Cells>
+                <Item1 Ref="126" Name="tableCell33" ControlType="XRTableCell" Text="2" TextAlignment="TopCenter" Weight="0.22916671752929696">
+                  <StylePriority Ref="127" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="128" Name="tableCell34" ControlType="XRTableCell" Text="Báo giá đã bao gồm chi phí giao hàng và lắp đặt tận nơi trong khu vực TPHCM" Weight="7.7804188537597661" />
+              </Cells>
+            </Item2>
+            <Item3 Ref="129" ControlType="XRTableRow" Name="tableRow10" Weight="1">
+              <Cells>
+                <Item1 Ref="130" Name="tableCell37" ControlType="XRTableCell" Text="3" TextAlignment="TopCenter" Weight="0.22916671752929696">
+                  <StylePriority Ref="131" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="132" Name="tableCell38" ControlType="XRTableCell" Text="Thời gian giao hàng : trong vòng 3-10 ngày sau khi xác nhận đặt hàng;" Weight="7.7804188537597661" />
+              </Cells>
+            </Item3>
+            <Item4 Ref="133" ControlType="XRTableRow" Name="tableRow11" Weight="1">
+              <Cells>
+                <Item1 Ref="134" Name="tableCell39" ControlType="XRTableCell" Text="4" TextAlignment="TopCenter" Weight="0.22916671752929696">
+                  <StylePriority Ref="135" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="136" Name="tableCell40" ControlType="XRTableCell" Text="Thanh toán: 100% ngay sau khi nhận được hàng và hoá đơn tài chính;" Weight="7.7804188537597661" />
+              </Cells>
+            </Item4>
+            <Item5 Ref="137" ControlType="XRTableRow" Name="tableRow9" Weight="1.1552913743682574">
+              <Cells>
+                <Item1 Ref="138" Name="tableCell35" ControlType="XRTableCell" Text="5" TextAlignment="TopCenter" Weight="0.22916671752929696">
+                  <StylePriority Ref="139" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="140" Name="tableCell36" ControlType="XRTableCell" Text="Khách hàng đã đặt hàng nhưng đơn phương huỷ bỏ đơn hàng hoặc không thanh toán đầy đủ, đúng hạn thì phải chịu phạt 10% tiền phí theo tổng giá trị đơn hàng và HT ComNet có quyền lấy lại các hàng hoá đã giao;" Weight="7.7804188537597661" />
+              </Cells>
+            </Item5>
+            <Item6 Ref="141" ControlType="XRTableRow" Name="tableRow12" Weight="1.2530848011687918">
+              <Cells>
+                <Item1 Ref="142" Name="tableCell41" ControlType="XRTableCell" Text="6" TextAlignment="TopCenter" Weight="0.22916671752929696">
+                  <StylePriority Ref="143" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="144" Name="tableCell42" ControlType="XRTableCell" Text="Thanh toán theo hình thức tiền mặt hoặc chuyển khoản bằng VNĐ : CÔNG TY TNHH MẠNG MÁY TÍNH CÔNG NGHỆ CAO HT COMNET - 137 221 889 - Ngân hàng TMCP ACB - PGD Hồ Văn Huê" Weight="7.7804188537597661" />
+              </Cells>
+            </Item6>
+          </Rows>
+        </Item8>
+        <Item9 Ref="145" Name="label16" ControlType="XRLabel" SizeF="659.375,23" LocationFloat="0, 304.500031" Font="Times New Roman, 9.75pt, style=Italic" Padding="2,2,0,0,100" Text="* Chúng tôi rất mong nhận được sự phản hồi từ quý khách">
+          <StylePriority Ref="146" UseFont="false" />
+        </Item9>
+        <Item10 Ref="147" Name="label18" ControlType="XRLabel" SizeF="200.499939,89.66669" LocationFloat="1.04160309, 363.1667" Padding="2,2,0,0,100" Multiline="true" Text="Người báo giá : &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Email:" />
+        <Item11 Ref="148" Name="label17" ControlType="XRLabel" SizeF="200.499939,89.66669" LocationFloat="580.6667, 363.1667" Padding="2,2,0,0,100" Multiline="true" Text="Khách hàng xác nhận đặt hàng. &#xD;&#xA;Ngày …... / ……. / 20……&#xD;&#xA;Ký, đóng dấu, ghi rõ họ tên:  " />
+      </Controls>
+    </Item5>
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v15.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="16.1.2.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" Landscape="true" Margins="10, 8, 142, 20" PaperKind="A4" PageWidth="1169" PageHeight="827" Version="16.1" DataMember="DataSource" DataSource="#Ref-0" Dpi="100">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="141.750015" Dpi="100">
+      <Controls>
+        <Item1 Ref="3" ControlType="XRLabel" Name="label15" Text="label15" SizeF="219.791809,23.0000038" LocationFloat="399.999878, 55.2916527" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="4" PropertyName="Text" DataMember="DetailBOR.Your Reference" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="5" ControlType="XRLabel" Name="label14" Text="label14" SizeF="100,23" LocationFloat="99.9999847, 101.291656" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="6" PropertyName="Text" DataMember="DetailBOR.Version" />
+          </DataBindings>
+        </Item2>
+        <Item3 Ref="7" ControlType="XRLabel" Name="label13" Text="label13" SizeF="100,23" LocationFloat="99.9999847, 78.29166" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="8" PropertyName="Text" DataMember="DetailBOR.Item Name" />
+          </DataBindings>
+        </Item3>
+        <Item4 Ref="9" ControlType="XRLabel" Name="label12" Text="label12" SizeF="100,23" LocationFloat="100, 55.2916679" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="10" PropertyName="Text" DataMember="DetailBOR.Item Code" />
+          </DataBindings>
+        </Item4>
+        <Item5 Ref="11" ControlType="XRLabel" Name="label11" Text="label11" SizeF="219.791809,23" LocationFloat="400, 101.291656" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="12" PropertyName="Text" DataMember="DetailBOR.Customer Name" />
+          </DataBindings>
+        </Item5>
+        <Item6 Ref="13" ControlType="XRLabel" Name="label10" Text="label10" SizeF="219.791809,23.0000038" LocationFloat="399.999878, 78.29166" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="14" PropertyName="Text" DataMember="DetailBOR.Customer Code" />
+          </DataBindings>
+        </Item6>
+        <Item7 Ref="15" ControlType="XRLabel" Name="label9" Text="Tên KH" SizeF="100,23" LocationFloat="300, 101.291656" Dpi="100" Padding="2,2,0,0,100" />
+        <Item8 Ref="16" ControlType="XRLabel" Name="label8" Text="Mã KH" SizeF="100,23" LocationFloat="300, 78.29167" Dpi="100" Padding="2,2,0,0,100" />
+        <Item9 Ref="17" ControlType="XRLabel" Name="label7" Text="Mã phiếu Y.C" SizeF="100,23" LocationFloat="300, 55.2916679" Dpi="100" Padding="2,2,0,0,100" />
+        <Item10 Ref="18" ControlType="XRLabel" Name="label6" Text="Số phiên bản" SizeF="100,23" LocationFloat="0, 101.291656" Dpi="100" Padding="2,2,0,0,100" />
+        <Item11 Ref="19" ControlType="XRLabel" Name="label5" Text="Tên sản phẩm" SizeF="100,23" LocationFloat="0, 78.29167" Dpi="100" Padding="2,2,0,0,100" />
+        <Item12 Ref="20" ControlType="XRLabel" Name="label4" Text="Mã sản phẩm" SizeF="100,23" LocationFloat="0, 55.2916679" Dpi="100" Padding="2,2,0,0,100" />
+        <Item13 Ref="21" ControlType="XRLabel" Name="label2" Text="THIẾT KẾ SẢN PHẨM THEO YÊU CẦU " TextAlignment="TopCenter" SizeF="794.7918,45.2916679" LocationFloat="0, 10.0000067" Dpi="100" Font="Times New Roman, 16pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="22" UseFont="false" UseTextAlignment="false" />
+        </Item13>
+      </Controls>
+    </Item1>
+    <Item2 Ref="23" ControlType="DetailBand" Name="detailBand1" HeightF="0" Dpi="100" />
+    <Item3 Ref="24" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="19.791666" Dpi="100" />
+    <Item4 Ref="25" ControlType="DetailReportBand" Name="DetailReportSRH" Level="0" DataSource="#Ref-0" Expanded="false" Dpi="100">
+      <Bands>
+        <Item1 Ref="26" ControlType="DetailBand" Name="Detail" HeightF="25" Dpi="100">
+          <Controls>
+            <Item1 Ref="27" ControlType="XRTable" Name="table2" TextAlignment="TopLeft" SizeF="794.7917,25" LocationFloat="1.58945713E-05, 0" Dpi="100" Font="Times New Roman, 9.75pt" Borders="All">
+              <Rows>
+                <Item1 Ref="28" ControlType="XRTableRow" Name="tableRow2" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="29" ControlType="XRTableCell" Name="tableCell5" Weight="2.21740234375" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="30" PropertyName="Text" DataMember="SRH.Group Name" />
+                      </DataBindings>
+                    </Item1>
+                    <Item2 Ref="31" ControlType="XRTableCell" Name="tableCell6" Weight="2.0811886596679687" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="32" PropertyName="Text" DataMember="SRH.Detail Name" />
+                      </DataBindings>
+                    </Item2>
+                    <Item3 Ref="33" ControlType="XRTableCell" Name="tableCell7" Weight="1.0979782104492191" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="34" PropertyName="Text" DataMember="SRH.Quantity" />
+                      </DataBindings>
+                    </Item3>
+                    <Item4 Ref="35" ControlType="XRTableCell" Name="tableCell8" Weight="2.55134765625" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="36" PropertyName="Text" DataMember="SRH.Description" />
+                      </DataBindings>
+                    </Item4>
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="37" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="38" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="47.9999847" Dpi="100">
+          <Controls>
+            <Item1 Ref="39" ControlType="XRTable" Name="table1" TextAlignment="TopCenter" SizeF="794.791748,24.9999981" LocationFloat="0, 22.9999866" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Borders="All">
+              <Rows>
+                <Item1 Ref="40" ControlType="XRTableRow" Name="tableRow1" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="41" ControlType="XRTableCell" Name="tableCell1" Weight="1.7291667175292969" Text="Nhóm Yêu câu" Dpi="100" />
+                    <Item2 Ref="42" ControlType="XRTableCell" Name="tableCell2" Weight="1.6354167175292969" Text="Yêu cầu" Dpi="100" />
+                    <Item3 Ref="43" ControlType="XRTableCell" Name="tableCell3" Weight="0.84375000000000011" Text="Thông số" Dpi="100" />
+                    <Item4 Ref="44" ControlType="XRTableCell" Name="tableCell4" Weight="1.9895834350585937" Text="Diễn giãi" Dpi="100" />
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="45" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="46" ControlType="XRLabel" Name="label1" Text="Thông tin phiếu yêu cầu" SizeF="794.7918,23.0000019" LocationFloat="0, 0" Dpi="100" Font="Times New Roman, 10pt, style=Bold" BackColor="255,192,192,255" Padding="2,2,0,0,100" Borders="All">
+              <StylePriority Ref="47" UseFont="false" UseBackColor="false" UseBorders="false" />
+            </Item2>
+          </Controls>
+        </Item2>
+        <Item3 Ref="48" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="22.9999866" Dpi="100" />
+      </Bands>
+    </Item4>
+    <Item5 Ref="49" ControlType="DetailReportBand" Name="DetailReport" Level="1" DataMember="DetailBOR" DataSource="#Ref-0" Dpi="100">
+      <Bands>
+        <Item1 Ref="50" ControlType="DetailBand" Name="Detail1" HeightF="25" Dpi="100">
+          <Controls>
+            <Item1 Ref="51" ControlType="XRTable" Name="table4" SizeF="794.791748,25" LocationFloat="0, 0" Dpi="100" Borders="All">
+              <Rows>
+                <Item1 Ref="52" ControlType="XRTableRow" Name="tableRow4" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="53" ControlType="XRTableCell" Name="tableCell16" Weight="1" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="54" PropertyName="Text" DataMember="DetailBOR.Work Center Code" />
+                      </DataBindings>
+                    </Item1>
+                    <Item2 Ref="55" ControlType="XRTableCell" Name="tableCell17" Weight="1" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="56" PropertyName="Text" DataMember="DetailBOR.Standard task Code" />
+                      </DataBindings>
+                    </Item2>
+                    <Item3 Ref="57" ControlType="XRTableCell" Name="tableCell18" Weight="1" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="58" PropertyName="Text" DataMember="DetailBOR.Standard task Name" />
+                      </DataBindings>
+                    </Item3>
+                    <Item4 Ref="59" ControlType="XRTableCell" Name="tableCell19" Weight="1" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="60" PropertyName="Text" DataMember="DetailBOR.Operation No_" />
+                      </DataBindings>
+                    </Item4>
+                    <Item5 Ref="61" ControlType="XRTableCell" Name="tableCell20" Weight="1" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="62" PropertyName="Text" DataMember="DetailBOR.Setup Time" />
+                      </DataBindings>
+                    </Item5>
+                    <Item6 Ref="63" ControlType="XRTableCell" Name="tableCell21" Weight="1.1979168701171874" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="64" PropertyName="Text" DataMember="DetailBOR.Move Time" />
+                      </DataBindings>
+                    </Item6>
+                    <Item7 Ref="65" ControlType="XRTableCell" Name="tableCell22" Weight="1.1979168701171874" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="66" PropertyName="Text" DataMember="DetailBOR.Wait Time" />
+                      </DataBindings>
+                    </Item7>
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="67" UseBorders="false" />
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="68" ControlType="ReportHeaderBand" Name="ReportHeader1" HeightF="47.9999847" Dpi="100">
+          <Controls>
+            <Item1 Ref="69" ControlType="XRTable" Name="table3" TextAlignment="TopCenter" SizeF="794.791748,24.9999981" LocationFloat="0, 22.9999866" Dpi="100" Font="Times New Roman, 10pt, style=Bold" Borders="All">
+              <Rows>
+                <Item1 Ref="70" ControlType="XRTableRow" Name="tableRow3" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="71" ControlType="XRTableCell" Name="tableCell9" Weight="1" Text="PTSX" Dpi="100" />
+                    <Item2 Ref="72" ControlType="XRTableCell" Name="tableCell10" Weight="1" Text="Mã thao tác" Dpi="100" />
+                    <Item3 Ref="73" ControlType="XRTableCell" Name="tableCell14" Weight="1" Text="Thao tác" Dpi="100" />
+                    <Item4 Ref="74" ControlType="XRTableCell" Name="tableCell11" Weight="1" Text="Số bước" Dpi="100" />
+                    <Item5 Ref="75" ControlType="XRTableCell" Name="tableCell13" Weight="1" Text="Thời gian cài đặt" Dpi="100" />
+                    <Item6 Ref="76" ControlType="XRTableCell" Name="tableCell12" Weight="1.1979168701171874" Text="Thời gian di chuyển" Dpi="100" />
+                    <Item7 Ref="77" ControlType="XRTableCell" Name="tableCell15" Weight="1.1979168701171874" Text="Thời gian đợi" Dpi="100" />
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="78" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="79" ControlType="XRLabel" Name="label3" Text="Thiết kế sản phẩm" SizeF="794.791748,22.9999866" LocationFloat="0, 0" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" BackColor="255,192,192,255" Padding="2,2,0,0,100" Borders="All">
+              <StylePriority Ref="80" UseFont="false" UseBackColor="false" UseBorders="false" />
+            </Item2>
+          </Controls>
+        </Item2>
+      </Bands>
+    </Item5>
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v16.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

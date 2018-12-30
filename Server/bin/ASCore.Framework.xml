@@ -1,0 +1,221 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASCore.Framework
+</name>
+</assembly>
+<members>
+<member name="M:ASCore.Framework.TDataEngine.ReFillAdapter(System.String,System.Object,System.Int32)">
+	<summary>
+ REFILL DATA TO ADAPTER [===EDIT HERE===]
+ </summary>
+	<param name="entityName">SqlDataAdapterz</param>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TDataEngine.AddTable(System.String,System.String)">
+	<summary>
+ ADD MORE TABLE TO CURRENT DATASET
+ </summary>
+	<param name="_tableName">Tablename</param>
+	<param name="_sourceName">Datatable, Adapter name</param>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TDataEngine.CreateRelationInDataSet(System.Object,System.Windows.Forms.BindingSource,System.String,System.String)">
+	<summary>
+ CREATE NEW RELATION IN DATASET
+ </summary>
+	<param name="Filters">TFilter member of ASCore.Object</param>
+	<param name="_parentBinding">Current Entity BindingSource</param>
+	<param name="parentName">parentName to make unique relation name</param>
+	<param name="childName">childName to make unique relation name</param>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TDataEngine.CreateConditionString(System.Object,System.Object,System.Object)">
+	<summary>
+ CREATE NEW QUERY STRING
+ </summary>
+	<param name="Filters">TFilter member of ASCore.Object</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TDataEngine.loadPage(System.String,System.Int32,System.Int32,System.Int32,System.String)">
+	<summary>
+ Pagging data
+ </summary>
+	<param name="entityName"></param>
+	<param name="mintCurrentPage"></param>
+	<param name="mintPageSize"></param>
+	<param name="mintPageCount"></param>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.ReadXML(System.Xml.XmlDocument,System.String,System.String)">
+	<summary>
+ Read value from XMLDocument
+ </summary>
+	<param name="_xml"></param>
+	<param name="path"></param>
+	<param name="key"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetAllObjectByType(ASCore.Framework.TEnumDefind.enumObjectType)">
+	<summary>
+ Get all object by system type
+ </summary>
+	<param name="objType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetAllObjectByWorkFlowShapes(System.String)">
+	<summary>
+ Get all object by system type
+ </summary>
+	<param name="objType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetObjectByNameWorkFlow(System.String,System.Object)">
+	<summary>
+ Get objects by Name with that object type
+ </summary>
+	<param name="FileName"></param>
+	<param name="objType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetObjectByName(System.String,ASCore.Framework.TEnumDefind.enumObjectType)">
+	<summary>
+ Get objects by Name with that object type
+ </summary>
+	<param name="FileName"></param>
+	<param name="objType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetObjectByNameImage(System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="ObjName"></param>
+	<param name="FileType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.SaveObjectToFile(System.Object,ASCore.Framework.TEnumDefind.enumObjectType)">
+	<summary>
+ [OBJECT ACTIONS] Save object to file
+ </summary>
+	<param name="ObjValue">Object</param>
+	<param name="ObjType">Object Type</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.OpenObject(System.String,ASCore.Framework.TEnumDefind.enumObjectType)">
+	<summary>
+ [OBJECT ACTIONS] Save object to file
+ </summary>
+	<param name="ObjName"></param>
+	<param name="ObjType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.DeleteObject(System.String,ASCore.Framework.TEnumDefind.enumObjectType)">
+	<summary>
+ [OBJECT ACTIONS] DELETE object
+ </summary>
+	<param name="ObjName"></param>
+	<param name="ObjType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.WizardObject">
+	<summary>
+ [OBJECT ACTIONS] Wizard layout of Entity
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetSourceName(ASCore.Framework.TEnumDefind.enumSourceType)">
+	<summary>
+ GET ALL TABLE OR VIEW IN DATABASE
+ </summary>
+	<returns></returns>
+	<remarks>DONE</remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetFieldListInSource(System.String)">
+	<summary>
+ GET ALL FIELD IN DATATABLE
+ </summary>
+	<param name="SourceName">Tablename</param>
+	<returns></returns>
+	<remarks>DONE</remarks>
+</member><member name="M:ASCore.Framework.TFramework.CreateFieldListForEntity(System.Object)">
+	<summary>
+ GET FIELD IN TABLE AND ADD TO LIST OF FIELD OF ENTITY
+ </summary>
+	<param name="ObjValue">ENTITY</param>
+	<returns>TRUE if Success</returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetFunctionList">
+	<summary>
+ GET ALL FUNCTION IN DLL LIBRARY [EDIT MORE]
+ </summary>
+	<returns></returns>
+	<remarks>DONE</remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetEntityList">
+	<summary>
+ GET ALL ENTITY IN LOCAL FOLDER 
+ </summary>
+	<returns></returns>
+	<remarks>DONE</remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetWorkFlowList">
+	<summary>
+ GET ALL ENTITY IN LOCAL FOLDER 
+ </summary>
+	<returns></returns>
+	<remarks>DONE</remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetUserList">
+	<summary>
+ GET ALL ENTITY IN LOCAL FOLDER 
+ </summary>
+	<returns></returns>
+	<remarks>DONE</remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetReportList">
+	<summary>
+ GET ALL Report IN LOCAL FOLDER 
+ </summary>
+	<returns></returns>
+	<remarks>DONE</remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetReportTemplateList">
+	<summary>
+ GET ALL Template Report
+ </summary>
+	<returns></returns>
+	<remarks>DONE</remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetEntityReport">
+	<summary>
+ GET ALL ENTITY IN LOCAL FOLDER 
+ </summary>
+	<returns></returns>
+	<remarks>DONE</remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetListFieldFromEntity(System.String)">
+	<summary>
+ GET ALL FIELD IN ENTITY
+ </summary>
+	<param name="EntityName"></param>
+	<returns></returns>
+	<remarks>DONE</remarks>
+</member><member name="M:ASCore.Framework.TFramework.GetListRelationFromEntity(System.Object)">
+	<summary>
+ GET ALL RELATION FROM ENTITY
+ </summary>
+	<param name="Instance"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.Framework.TFramework.CloneList(System.Object,System.Object@)">
+	<summary>
+ COPY OBJECT TO ANOTHER
+ </summary>
+	<param name="source"></param>
+	<param name="Dest"></param>
+	<remarks>DONE</remarks>
+</member><member name="P:ASCore.Framework.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ASCore.Framework.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ASCore.Framework.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

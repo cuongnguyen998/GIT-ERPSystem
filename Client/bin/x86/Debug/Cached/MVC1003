@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="16.1.2.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" Margins="100, 18, 0, 24" PageWidth="850" PageHeight="1100" Version="16.1" DataMember="DataSource" DataSource="#Ref-0" Dpi="100">
+  <CalculatedFields>
+    <Item1 Ref="2" Name="Amt9" Expression="[Amount Sales] *  0.1" DataMember="DataSource.DataSourceSumAmount" />
+    <Item2 Ref="3" Name="sumTotal9" FieldType="Decimal" DisplayName="sumTotal9" Expression="[Amount Sales] * 0.9" DataMember="DataSource" />
+  </CalculatedFields>
+  <Bands>
+    <Item1 Ref="4" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="0" Dpi="100" />
+    <Item2 Ref="5" ControlType="DetailBand" Name="detailBand1" HeightF="23" Dpi="100">
+      <Controls>
+        <Item1 Ref="6" ControlType="XRLabel" Name="label1" Text="Load" SizeF="41.6666679,23" LocationFloat="0, 0" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="7" UseFont="false" />
+        </Item1>
+        <Item2 Ref="8" ControlType="XRLabel" Name="label2" SizeF="369.791656,23" LocationFloat="41.6666679, 0" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="9" PropertyName="Text" DataMember="DataSource.Code" />
+          </DataBindings>
+        </Item2>
+      </Controls>
+    </Item2>
+    <Item3 Ref="10" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="23.958334" Dpi="100">
+      <Controls>
+        <Item1 Ref="11" ControlType="XRPageInfo" Name="pageInfo1" TextAlignment="TopRight" SizeF="194.791687,23.0000153" LocationFloat="537.2083, 0" Dpi="100" Padding="2,2,0,0,100">
+          <StylePriority Ref="12" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item3>
+    <Item4 Ref="13" ControlType="DetailReportBand" Name="DetailReport" Level="0" DataMember="DataSource.DataSourcePickup" DataSource="#Ref-0" Dpi="100">
+      <Bands>
+        <Item1 Ref="14" ControlType="DetailBand" Name="Detail" HeightF="23" Dpi="100">
+          <Controls>
+            <Item1 Ref="15" ControlType="XRLabel" Name="label4" Text="label4" SizeF="640,23" LocationFloat="0, 0" Dpi="100" Padding="2,2,0,0,100">
+              <DataBindings>
+                <Item1 Ref="16" PropertyName="Text" DataMember="DataSource.DataSourcePickup.Pickup Address" />
+              </DataBindings>
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="17" ControlType="GroupHeaderBand" Name="GroupHeader2" HeightF="23" Dpi="100">
+          <Controls>
+            <Item1 Ref="18" ControlType="XRLabel" Name="label3" Text="Pickup" SizeF="100,23" LocationFloat="0, 0" Dpi="100" Padding="2,2,0,0,100" />
+          </Controls>
+        </Item2>
+      </Bands>
+    </Item4>
+    <Item5 Ref="19" ControlType="DetailReportBand" Name="DetailReport1" Level="1" DataMember="DataSource.DataSourceDelivery" DataSource="#Ref-0" Dpi="100">
+      <Bands>
+        <Item1 Ref="20" ControlType="DetailBand" Name="Detail1" HeightF="23" Dpi="100">
+          <Controls>
+            <Item1 Ref="21" ControlType="XRLabel" Name="label6" Text="label6" SizeF="650,23" LocationFloat="0, 0" Dpi="100" Padding="2,2,0,0,100">
+              <DataBindings>
+                <Item1 Ref="22" PropertyName="Text" DataMember="DataSource.DataSourceDelivery.Delivery Address" />
+              </DataBindings>
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="23" ControlType="GroupHeaderBand" Name="GroupHeader3" HeightF="23" Dpi="100">
+          <Controls>
+            <Item1 Ref="24" ControlType="XRLabel" Name="label5" Text="Delivery" SizeF="100,23" LocationFloat="0, 0" Dpi="100" Padding="2,2,0,0,100" />
+          </Controls>
+        </Item2>
+      </Bands>
+    </Item5>
+    <Item6 Ref="25" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="172.958313" Dpi="100">
+      <Controls>
+        <Item1 Ref="26" ControlType="XRTable" Name="table2" SizeF="264.5833,100" LocationFloat="0, 72.95831" Dpi="100">
+          <Rows>
+            <Item1 Ref="27" ControlType="XRTableRow" Name="tableRow9" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="28" ControlType="XRTableCell" Name="tableCell17" Weight="0.75590533925207148" Text="Amount Oil" TextAlignment="TopLeft" Dpi="100">
+                  <StylePriority Ref="29" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="30" ControlType="XRTableCell" Name="tableCell18" Weight="1.2440946607479284" Dpi="100">
+                  <Summary Ref="31" FormatString="{0:$0.00}" Running="Report" />
+                  <DataBindings>
+                    <Item1 Ref="32" PropertyName="Text" DataMember="DataSource.Amount Oil" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item1>
+            <Item2 Ref="33" ControlType="XRTableRow" Name="tableRow10" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="34" ControlType="XRTableCell" Name="tableCell19" Weight="0.75590556993614433" Text="Amount Repair" TextAlignment="TopLeft" Dpi="100">
+                  <StylePriority Ref="35" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="36" ControlType="XRTableCell" Name="tableCell20" Weight="1.2440944300638557" Dpi="100">
+                  <Summary Ref="37" FormatString="{0:$0.00}" Running="Page" />
+                  <DataBindings>
+                    <Item1 Ref="38" PropertyName="Text" DataMember="DataSource.Amount Repair" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item2>
+            <Item3 Ref="39" ControlType="XRTableRow" Name="tableRow11" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="40" ControlType="XRTableCell" Name="tableCell21" Weight="0.75590556993614433" Text="Amount Toll" TextAlignment="TopLeft" Dpi="100">
+                  <StylePriority Ref="41" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="42" ControlType="XRTableCell" Name="tableCell22" Weight="1.2440944300638557" Dpi="100">
+                  <Summary Ref="43" FormatString="{0:$0.00}" Running="Page" />
+                  <DataBindings>
+                    <Item1 Ref="44" PropertyName="Text" DataMember="DataSource.Amount Toll" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item3>
+            <Item4 Ref="45" ControlType="XRTableRow" Name="tableRow12" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="46" ControlType="XRTableCell" Name="tableCell23" Weight="0.75590556993614433" Text="Quick Pay" TextAlignment="TopLeft" Dpi="100">
+                  <StylePriority Ref="47" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="48" ControlType="XRTableCell" Name="tableCell24" Weight="1.2440944300638557" Dpi="100">
+                  <Summary Ref="49" FormatString="{0:$0.00}" Running="Page" />
+                  <DataBindings>
+                    <Item1 Ref="50" PropertyName="Text" DataMember="DataSource.Quick Pay" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item4>
+          </Rows>
+        </Item1>
+        <Item2 Ref="51" ControlType="XRLabel" Name="label17" Text="Recurring Deduction" SizeF="130.208313,23.0000038" LocationFloat="0, 49.9582939" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="52" UseFont="false" />
+        </Item2>
+        <Item3 Ref="53" ControlType="XRLabel" Name="label16" SizeF="100,23" LocationFloat="298.958344, 0" Dpi="100" Padding="2,2,0,0,100">
+          <Summary Ref="54" Running="Report" />
+          <DataBindings>
+            <Item1 Ref="55" PropertyName="Text" DataMember="DataSource.DataSourceSumAmount.Amt" />
+          </DataBindings>
+        </Item3>
+        <Item4 Ref="56" ControlType="XRLabel" Name="label8" Text="Grand total" SizeF="100,23" LocationFloat="398.958344, 0" Dpi="100" Font="Times New Roman, 10pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="57" UseFont="false" />
+        </Item4>
+        <Item5 Ref="58" ControlType="XRLabel" Name="label7" SizeF="198.958344,23" LocationFloat="498.958344, 0" Dpi="100" Font="Times New Roman, 10pt, style=Bold" Padding="2,2,0,0,100">
+          <Summary Ref="59" FormatString="{0:$0.00}" Running="Report" />
+          <DataBindings>
+            <Item1 Ref="60" PropertyName="Text" DataMember="DataSource.DataSourceSumAmount.Amt9" />
+          </DataBindings>
+          <StylePriority Ref="61" UseFont="false" />
+        </Item5>
+      </Controls>
+    </Item6>
+    <Item7 Ref="62" ControlType="DetailReportBand" Name="DetailReport2" Level="2" DataMember="DataSource.DataSourceSumAmount" DataSource="#Ref-0" Dpi="100">
+      <Bands>
+        <Item1 Ref="63" ControlType="DetailBand" Name="Detail2" HeightF="69.25001" Dpi="100">
+          <Controls>
+            <Item1 Ref="64" ControlType="XRLine" Name="line1" SizeF="732,6.250061" LocationFloat="0, 62.9999466" Dpi="100" />
+            <Item2 Ref="65" ControlType="XRLabel" Name="label15" Text="label15" SizeF="198.958344,23" LocationFloat="498.958344, 36.45827" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+              <DataBindings>
+                <Item1 Ref="66" FormatString="{0:$0.00}" PropertyName="Text" DataMember="DataSource.DataSourceSumAmount.Amt9" />
+              </DataBindings>
+              <StylePriority Ref="67" UseFont="false" />
+            </Item2>
+            <Item3 Ref="68" ControlType="XRLabel" Name="label14" Text="Sub-Total" SizeF="100,23" LocationFloat="398.958344, 36.45827" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100">
+              <StylePriority Ref="69" UseFont="false" />
+            </Item3>
+            <Item4 Ref="70" ControlType="XRLabel" Name="label13" Text="Notes" SizeF="100,23.0000019" LocationFloat="0, 23.0000172" Dpi="100" Padding="2,2,0,0,100" />
+            <Item5 Ref="71" ControlType="XRLabel" Name="label12" Text="label12" SizeF="198.958344,23" LocationFloat="498.958344, 0" Dpi="100" Padding="2,2,0,0,100">
+              <DataBindings>
+                <Item1 Ref="72" FormatString="{0:$0.00}" PropertyName="Text" DataMember="DataSource.DataSourceSumAmount.Amt9" />
+              </DataBindings>
+            </Item5>
+            <Item6 Ref="73" ControlType="XRLabel" Name="label11" Text="10%" SizeF="35.41664,23" LocationFloat="254.1667, 0" Dpi="100" Padding="2,2,0,0,100" />
+            <Item7 Ref="74" ControlType="XRLabel" Name="label10" Text="Rate" SizeF="100,23" LocationFloat="0, 0" Dpi="100" Padding="2,2,0,0,100" />
+            <Item8 Ref="75" ControlType="XRLabel" Name="label9" SizeF="154.1667,23" LocationFloat="100, 0" Dpi="100" Padding="2,2,0,0,100">
+              <DataBindings>
+                <Item1 Ref="76" FormatString="{0:$0.00}" PropertyName="Text" DataMember="DataSource.DataSourceSumAmount.Amount Sales" />
+              </DataBindings>
+            </Item8>
+          </Controls>
+        </Item1>
+      </Bands>
+    </Item7>
+    <Item8 Ref="77" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="206.250061" Dpi="100">
+      <Controls>
+        <Item1 Ref="78" ControlType="XRTable" Name="table1" SizeF="300,200" LocationFloat="409.5, 0" Dpi="100">
+          <Rows>
+            <Item1 Ref="79" ControlType="XRTableRow" Name="tableRow1" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="80" ControlType="XRTableCell" Name="tableCell1" Weight="1" Text="Report" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="81" UseFont="false" />
+                </Item1>
+                <Item2 Ref="82" ControlType="XRTableCell" Name="tableCell2" Weight="2" Text="Driver Day" Dpi="100" />
+              </Cells>
+            </Item1>
+            <Item2 Ref="83" ControlType="XRTableRow" Name="tableRow5" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="84" ControlType="XRTableCell" Name="tableCell9" Weight="1" Text="Driver" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="85" UseFont="false" />
+                </Item1>
+                <Item2 Ref="86" ControlType="XRTableCell" Name="tableCell10" Weight="2" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="87" PropertyName="Text" DataMember="listDriver.Name" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item2>
+            <Item3 Ref="88" ControlType="XRTableRow" Name="tableRow4" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="89" ControlType="XRTableCell" Name="tableCell7" Weight="1" Text="Address" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="90" UseFont="false" />
+                </Item1>
+                <Item2 Ref="91" ControlType="XRTableCell" Name="tableCell8" Weight="2" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="92" PropertyName="Text" DataMember="listDriver.Address" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item3>
+            <Item4 Ref="93" ControlType="XRTableRow" Name="tableRow3" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="94" ControlType="XRTableCell" Name="tableCell5" Weight="1" Text="Telephone" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="95" UseFont="false" />
+                </Item1>
+                <Item2 Ref="96" ControlType="XRTableCell" Name="tableCell6" Weight="2" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="97" PropertyName="Text" DataMember="listDriver.Phone" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item4>
+            <Item5 Ref="98" ControlType="XRTableRow" Name="tableRow2" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="99" ControlType="XRTableCell" Name="tableCell3" Weight="1" Text="Report Date" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="100" UseFont="false" />
+                </Item1>
+                <Item2 Ref="101" ControlType="XRTableCell" Name="tableCell4" Weight="2" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="102" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="listDriver.GetNow" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item5>
+            <Item6 Ref="103" ControlType="XRTableRow" Name="tableRow6" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="104" ControlType="XRTableCell" Name="tableCell11" Weight="1" Text="Search From" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="105" UseFont="false" />
+                </Item1>
+                <Item2 Ref="106" ControlType="XRTableCell" Name="tableCell12" Weight="2" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="107" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="listDriver.FFFromDate" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item6>
+            <Item7 Ref="108" ControlType="XRTableRow" Name="tableRow7" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="109" ControlType="XRTableCell" Name="tableCell13" Weight="1" Text="Search To" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="110" UseFont="false" />
+                </Item1>
+                <Item2 Ref="111" ControlType="XRTableCell" Name="tableCell14" Weight="2" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="112" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="listDriver.FFToDate" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item7>
+            <Item8 Ref="113" ControlType="XRTableRow" Name="tableRow8" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="114" ControlType="XRTableCell" Name="tableCell15" Weight="1" Text="Generation Date" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold">
+                  <StylePriority Ref="115" UseFont="false" />
+                </Item1>
+                <Item2 Ref="116" ControlType="XRTableCell" Name="tableCell16" Weight="2" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="117" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="listDriver.GetNow" />
+                  </DataBindings>
+                </Item2>
+              </Cells>
+            </Item8>
+          </Rows>
+        </Item1>
+        <Item2 Ref="118" ControlType="XRLine" Name="line2" SizeF="732,6.250061" LocationFloat="0, 200" Dpi="100" />
+      </Controls>
+    </Item8>
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v16.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

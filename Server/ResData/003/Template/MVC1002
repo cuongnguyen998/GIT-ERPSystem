@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="16.1.2.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" PageWidth="850" PageHeight="1100" Version="16.1" DataMember="DataSource" DataSource="#Ref-0" Dpi="100">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="100" Dpi="100">
+      <Controls>
+        <Item1 Ref="3" ControlType="XRLabel" Name="label10" Text="label10" SizeF="100,23" LocationFloat="462.5, 46.875" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="4" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="DataSource.FFToDate" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="5" ControlType="XRLabel" Name="label9" Text="label9" SizeF="100,23" LocationFloat="100, 46.875" Dpi="100" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="6" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="DataSource.FFFromDate" />
+          </DataBindings>
+        </Item2>
+        <Item3 Ref="7" ControlType="XRLabel" Name="label3" Text="Đến ngày" SizeF="100,23" LocationFloat="362.5, 46.875" Dpi="100" Padding="2,2,0,0,100" />
+        <Item4 Ref="8" ControlType="XRLabel" Name="label2" Text="Từ ngày" SizeF="100,23" LocationFloat="0, 46.875" Dpi="100" Padding="2,2,0,0,100" />
+        <Item5 Ref="9" ControlType="XRLabel" Name="label1" Text="BÁO CÁO THỐNG KÊ ĐƠN HÀNG VẨN CHUYỂN" TextAlignment="TopCenter" SizeF="640,36.875" LocationFloat="0, 10.0000067" Dpi="100" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="10" UseFont="false" UseTextAlignment="false" />
+        </Item5>
+      </Controls>
+    </Item1>
+    <Item2 Ref="11" ControlType="DetailBand" Name="detailBand1" HeightF="0" Dpi="100" />
+    <Item3 Ref="12" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="100" Dpi="100" />
+    <Item4 Ref="13" ControlType="DetailReportBand" Name="DetailReport" Level="0" DataMember="DTDriver" DataSource="#Ref-0" Dpi="100">
+      <Bands>
+        <Item1 Ref="14" ControlType="DetailBand" Name="Detail" HeightF="25" Dpi="100">
+          <Controls>
+            <Item1 Ref="15" ControlType="XRTable" Name="table1" SizeF="590.625,25" LocationFloat="0, 0" Dpi="100" Borders="All">
+              <Rows>
+                <Item1 Ref="16" ControlType="XRTableRow" Name="tableRow1" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="17" ControlType="XRTableCell" Name="tableCell1" Weight="1" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="18" PropertyName="Text" DataMember="DTDriver.Driver Code" />
+                      </DataBindings>
+                    </Item1>
+                    <Item2 Ref="19" ControlType="XRTableCell" Name="tableCell2" Weight="1.5" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="20" PropertyName="Text" DataMember="DTDriver.Driver Name" />
+                      </DataBindings>
+                    </Item2>
+                    <Item3 Ref="21" ControlType="XRTableCell" Name="tableCell3" Weight="1" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="22" FormatString="{0:#,#}" PropertyName="Text" DataMember="DTDriver.Quantity" />
+                      </DataBindings>
+                    </Item3>
+                    <Item4 Ref="23" ControlType="XRTableCell" Name="tableCell4" Weight="2.40625" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="24" FormatString="{0:#.00}" PropertyName="Text" DataMember="DTDriver.Amount" />
+                      </DataBindings>
+                    </Item4>
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="25" UseBorders="false" />
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="26" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="45.9999924" Dpi="100">
+          <Controls>
+            <Item1 Ref="27" ControlType="XRLabel" Name="label8" Text="Amount" SizeF="240.625,23.0000019" LocationFloat="350, 22.9999866" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All">
+              <StylePriority Ref="28" UseFont="false" UseBorders="false" />
+            </Item1>
+            <Item2 Ref="29" ControlType="XRLabel" Name="label7" Text="Quantity M" SizeF="100,23.0000019" LocationFloat="250, 22.9999866" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All">
+              <StylePriority Ref="30" UseFont="false" UseBorders="false" />
+            </Item2>
+            <Item3 Ref="31" ControlType="XRLabel" Name="label6" Text="Name" SizeF="150,23.0000019" LocationFloat="100, 22.9999866" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All">
+              <StylePriority Ref="32" UseFont="false" UseBorders="false" />
+            </Item3>
+            <Item4 Ref="33" ControlType="XRLabel" Name="label5" Text="Code" SizeF="100,23.0000038" LocationFloat="0, 22.9999866" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All">
+              <StylePriority Ref="34" UseFont="false" UseBorders="false" />
+            </Item4>
+            <Item5 Ref="35" ControlType="XRLabel" Name="label4" Text="Driver" SizeF="590.625,23" LocationFloat="0, 0" Dpi="100" Font="Times New Roman, 10pt, style=Bold" Padding="2,2,0,0,100">
+              <StylePriority Ref="36" UseFont="false" />
+            </Item5>
+          </Controls>
+        </Item2>
+      </Bands>
+    </Item4>
+    <Item5 Ref="37" ControlType="DetailReportBand" Name="DetailReport1" Level="1" DataMember="DTCar" DataSource="#Ref-0" Dpi="100">
+      <Bands>
+        <Item1 Ref="38" ControlType="DetailBand" Name="Detail1" HeightF="25" Dpi="100">
+          <Controls>
+            <Item1 Ref="39" ControlType="XRTable" Name="table2" SizeF="590.625,25" LocationFloat="0, 0" Dpi="100" Borders="All">
+              <Rows>
+                <Item1 Ref="40" ControlType="XRTableRow" Name="tableRow2" Weight="1" Dpi="100">
+                  <Cells>
+                    <Item1 Ref="41" ControlType="XRTableCell" Name="tableCell5" Weight="1" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="42" PropertyName="Text" DataMember="DTCar.Car Code" />
+                      </DataBindings>
+                    </Item1>
+                    <Item2 Ref="43" ControlType="XRTableCell" Name="tableCell6" Weight="1.5" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="44" PropertyName="Text" DataMember="DTCar.Car Name" />
+                      </DataBindings>
+                    </Item2>
+                    <Item3 Ref="45" ControlType="XRTableCell" Name="tableCell7" Weight="1" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="46" FormatString="{0:#,#}" PropertyName="Text" DataMember="DTCar.Quantity" />
+                      </DataBindings>
+                    </Item3>
+                    <Item4 Ref="47" ControlType="XRTableCell" Name="tableCell8" Weight="2.40625" Dpi="100">
+                      <DataBindings>
+                        <Item1 Ref="48" FormatString="{0:#.00}" PropertyName="Text" DataMember="DTCar.Amount" />
+                      </DataBindings>
+                    </Item4>
+                  </Cells>
+                </Item1>
+              </Rows>
+              <StylePriority Ref="49" UseBorders="false" />
+            </Item1>
+          </Controls>
+        </Item1>
+        <Item2 Ref="50" ControlType="GroupHeaderBand" Name="GroupHeader2" HeightF="45.9999924" Dpi="100">
+          <Controls>
+            <Item1 Ref="51" ControlType="XRLabel" Name="label11" Text="Car" SizeF="590.625,23" LocationFloat="0, 0" Dpi="100" Font="Times New Roman, 10pt, style=Bold" Padding="2,2,0,0,100">
+              <StylePriority Ref="52" UseFont="false" />
+            </Item1>
+            <Item2 Ref="53" ControlType="XRLabel" Name="label12" Text="Code" SizeF="100,23.0000038" LocationFloat="0, 22.9999866" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All">
+              <StylePriority Ref="54" UseFont="false" UseBorders="false" />
+            </Item2>
+            <Item3 Ref="55" ControlType="XRLabel" Name="label13" Text="Name" SizeF="150,23.0000019" LocationFloat="100, 22.9999866" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All">
+              <StylePriority Ref="56" UseFont="false" UseBorders="false" />
+            </Item3>
+            <Item4 Ref="57" ControlType="XRLabel" Name="label14" Text="Quantity M" SizeF="100,23.0000019" LocationFloat="250, 22.9999866" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All">
+              <StylePriority Ref="58" UseFont="false" UseBorders="false" />
+            </Item4>
+            <Item5 Ref="59" ControlType="XRLabel" Name="label15" Text="Amount" SizeF="240.625,23.0000019" LocationFloat="350, 22.9999866" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All">
+              <StylePriority Ref="60" UseFont="false" UseBorders="false" />
+            </Item5>
+          </Controls>
+        </Item2>
+      </Bands>
+    </Item5>
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v16.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

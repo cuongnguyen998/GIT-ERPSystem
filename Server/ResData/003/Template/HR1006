@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="16.1.2.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" Landscape="true" Margins="0, 0, 151, 100" PageWidth="1100" PageHeight="850" Version="16.1" DataMember="DataSource" DataSource="#Ref-0" Dpi="100">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="151.041687" Dpi="100">
+      <Controls>
+        <Item1 Ref="3" ControlType="XRTable" Name="table1" TextAlignment="TopCenter" SizeF="1080,34.29167" LocationFloat="10.0000544, 116.750015" Dpi="100" Borders="All">
+          <Rows>
+            <Item1 Ref="4" ControlType="XRTableRow" Name="tableRow1" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="5" ControlType="XRTableCell" Name="tableCell1" Weight="2.7575427516461541" Text="Phòng ban" Dpi="100" />
+                <Item2 Ref="6" ControlType="XRTableCell" Name="tableCell2" Weight="1.8903699440998367" Text="Tổ nhóm" Dpi="100" />
+                <Item3 Ref="7" ControlType="XRTableCell" Name="tableCell3" Weight="1.5613621812128016" Text="Mã NV" Dpi="100" />
+                <Item4 Ref="8" ControlType="XRTableCell" Name="tableCell4" Weight="3.5605665899278423" Text="Tên NV" Dpi="100" />
+                <Item5 Ref="9" ControlType="XRTableCell" Name="tableCell5" Weight="1.6151032120392923" Text="Ngày làm việc" Dpi="100" />
+                <Item6 Ref="10" ControlType="XRTableCell" Name="tableCell10" Weight="2.4624456152485008" Text="Diễn giải" Dpi="100" />
+                <Item7 Ref="11" ControlType="XRTableCell" Name="tableCell6" Weight="0.78618562487143473" Text="Giờ vào KH" Dpi="100" />
+                <Item8 Ref="12" ControlType="XRTableCell" Name="tableCell7" Weight="0.89671050623109672" Text="Giờ vào T.T" Dpi="100" />
+                <Item9 Ref="13" ControlType="XRTableCell" Name="tableCell8" Weight="0.85986788973378214" Text="Giờ ra KH" Dpi="100" />
+                <Item10 Ref="14" ControlType="XRTableCell" Name="tableCell9" Weight="0.78618589470164113" Text="Giờ ra T.T" Dpi="100" />
+                <Item11 Ref="15" ControlType="XRTableCell" Name="tableCell11" Weight="0.96096982464949421" Text="Giờ công KH" Dpi="100" />
+                <Item12 Ref="16" ControlType="XRTableCell" Name="tableCell12" Weight="0.96096982464949421" Text="Giờ công T.T" Dpi="100" />
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="17" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="18" ControlType="XRLabel" Name="label3" Text="label3" SizeF="99.99997,23" LocationFloat="455.208344, 43.83335" Dpi="100" Padding="2,2,0,0,100" />
+        <Item3 Ref="19" ControlType="XRLabel" Name="label2" Text="label2" SizeF="100,23" LocationFloat="10.0000067, 43.83335" Dpi="100" Padding="2,2,0,0,100" />
+        <Item4 Ref="20" ControlType="XRLabel" Name="label1" Text="BÁO CÁO NGHI NHẬN CÔNG" TextAlignment="TopCenter" SizeF="830,33.8333359" LocationFloat="10.0000067, 10.0000067" Dpi="100" Font="Times New Roman, 14pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="21" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+      </Controls>
+    </Item1>
+    <Item2 Ref="22" ControlType="DetailBand" Name="detailBand1" HeightF="17.6250057" Dpi="100">
+      <Controls>
+        <Item1 Ref="23" ControlType="XRTable" Name="table2" TextAlignment="TopLeft" SizeF="1080,17.6250057" LocationFloat="10.0000067, 0" Dpi="100" Font="Times New Roman, 9pt" Borders="All">
+          <Rows>
+            <Item1 Ref="24" ControlType="XRTableRow" Name="tableRow2" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="25" ControlType="XRTableCell" Name="tableCell13" Weight="2.7575436960518793" WordWrap="false" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="26" PropertyName="Text" DataMember="DataSource.Department Name" />
+                  </DataBindings>
+                </Item1>
+                <Item2 Ref="27" ControlType="XRTableCell" Name="tableCell14" Weight="1.8903700790149396" WordWrap="false" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="28" PropertyName="Text" DataMember="DataSource.WC Name" />
+                  </DataBindings>
+                </Item2>
+                <Item3 Ref="29" ControlType="XRTableCell" Name="tableCell15" Weight="1.561362181212802" WordWrap="false" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="30" PropertyName="Text" DataMember="DataSource.Employee Code" />
+                  </DataBindings>
+                </Item3>
+                <Item4 Ref="31" ControlType="XRTableCell" Name="tableCell16" Weight="3.56056578043722" WordWrap="false" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="32" PropertyName="Text" DataMember="DataSource.Employee Name" />
+                  </DataBindings>
+                </Item4>
+                <Item5 Ref="33" ControlType="XRTableCell" Name="tableCell17" Weight="1.6151045611903285" WordWrap="false" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="34" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="DataSource.Working Date" />
+                  </DataBindings>
+                </Item5>
+                <Item6 Ref="35" ControlType="XRTableCell" Name="tableCell18" Weight="2.4624456152485017" WordWrap="false" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="36" PropertyName="Text" DataMember="DataSource.Description" />
+                  </DataBindings>
+                </Item6>
+                <Item7 Ref="37" ControlType="XRTableCell" Name="tableCell19" Weight="0.78618292656936184" WordWrap="false" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="38" FormatString="{0:HH:mm}" PropertyName="Text" DataMember="DataSource.Time In" />
+                  </DataBindings>
+                </Item7>
+                <Item8 Ref="39" ControlType="XRTableCell" Name="tableCell20" Weight="0.89671266487275414" WordWrap="false" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="40" FormatString="{0:HH:mm}" PropertyName="Text" DataMember="DataSource.Time In Transact" />
+                  </DataBindings>
+                </Item8>
+                <Item9 Ref="41" ControlType="XRTableCell" Name="tableCell21" Weight="0.85986681041295343" WordWrap="false" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="42" FormatString="{0:HH:mm}" PropertyName="Text" DataMember="DataSource.Time Out" />
+                  </DataBindings>
+                </Item9>
+                <Item10 Ref="43" ControlType="XRTableCell" Name="tableCell22" Weight="0.78618589470164113" WordWrap="false" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="44" FormatString="{0:HH:mm}" PropertyName="Text" DataMember="DataSource.Time Out Transact" />
+                  </DataBindings>
+                </Item10>
+                <Item11 Ref="45" ControlType="XRTableCell" Name="tableCell23" Weight="0.96096982464949421" TextAlignment="TopRight" WordWrap="false" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="46" FormatString="{0:#,#}" PropertyName="Text" DataMember="DataSource.WTPlant" />
+                  </DataBindings>
+                  <StylePriority Ref="47" UseTextAlignment="false" />
+                </Item11>
+                <Item12 Ref="48" ControlType="XRTableCell" Name="tableCell24" Weight="0.96096982464949421" TextAlignment="TopRight" WordWrap="false" Dpi="100">
+                  <DataBindings>
+                    <Item1 Ref="49" FormatString="{0:#,#}" PropertyName="Text" DataMember="DataSource.WTActual" />
+                  </DataBindings>
+                  <StylePriority Ref="50" UseTextAlignment="false" />
+                </Item12>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="51" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item2>
+    <Item3 Ref="52" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="100" Dpi="100" />
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v16.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

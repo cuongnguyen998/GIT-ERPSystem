@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HumanResourceLogic
+</name>
+</assembly>
+<members>
+<member name="T:HumanResourceLogic.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:HumanResourceLogic.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:HumanResourceLogic.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:HumanResourceLogic.HumanResourceLogic.AbsenceSubmit(ASCore.Objects.TMethodSource@,ASCore.Objects.TMethodArgs@)">
+ <summary>
+ Hàm đăng ký nghỉ vắng cho nhân viên
+ Bấm vào nút "Đăng ký" sẽ lấy toàn bộ dữ liệu của param truyền xuống bảng bên dưới
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:HumanResourceLogic.HumanResourceLogic.ApproveAbsence(ASCore.Objects.TMethodSource@,ASCore.Objects.TMethodArgs@)">
+ <summary>
+ Duyệt cho nhân viên nghỉ (chỉ quản lý được phân quyền sử dụng)
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:HumanResourceLogic.HumanResourceLogic.AutoConcatFullName(ASCore.Objects.TMethodSource@,ASCore.Objects.TMethodArgs@)">
+ <summary>
+ Tự động nối chuỗi họ và tên
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:HumanResourceLogic.HumanResourceLogic.EditEmployeeInfo(ASCore.Objects.TMethodSource@,ASCore.Objects.TMethodArgs@)">
+ <summary>
+ Thay đổi thông tin nhân viên
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

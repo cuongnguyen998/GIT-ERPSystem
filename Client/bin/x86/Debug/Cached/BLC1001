@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="16.1.2.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" Margins="0, 0, 0, 0" PageWidth="850" PageHeight="1100" Version="16.1" DataMember="DataSource" DataSource="#Ref-0" Dpi="100">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="0" Dpi="100" />
+    <Item2 Ref="3" ControlType="DetailBand" Name="detailBand1" HeightF="358.333344" Dpi="100">
+      <Controls>
+        <Item1 Ref="4" ControlType="XRRichText" Name="richText1" SerializableRtfString="ewBcAHIAdABmADEAXABhAG4AcwBpAGMAcABnADEAMgA1ADIADQAKAHsADQAKAFwAZgBvAG4AdAB0AGIAbAANAAoAewBcAGYAMAAgAFQAaQBtAGUAcwAgAE4AZQB3ACAAUgBvAG0AYQBuADsAfQANAAoAfQANAAoAewANAAoAXABjAG8AbABvAHIAdABiAGwADQAKADsADQAKAFwAcgBlAGQAMABcAGcAcgBlAGUAbgAwAFwAYgBsAHUAZQAyADUANQA7AA0ACgBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAA7AA0ACgB9AA0ACgB7AFwAaQBuAGYAbwB7AFwAYwByAGUAYQB0AGkAbQBcAHkAcgAyADAAMQA3AFwAbQBvADgAXABkAHkAMQAwAFwAaAByADEAMABcAG0AaQBuADEAfQB7AFwAdgBlAHIAcwBpAG8AbgAxAH0AfQBcAG4AbwB1AGkAYwBvAG0AcABhAHQAXABzAHAAbAB5AHQAdwBuAGkAbgBlAFwAaAB0AG0AYQB1AHQAcwBwAHsAXABzAGUAYwB0AGQAXABwAGEAcgBkAFwAcABsAGEAaQBuAFwAcQBsAHsAXABmAHMAMgAwAFwAYwBmADIAIAByAGkAYwBoAFQAZQB4AHQAMQB9AFwAcABhAHIAfQANAAoAfQANAAoA" SizeF="850,358.333344" LocationFloat="0, 0" Dpi="100" Font="Times New Roman, 9.75pt">
+          <DataBindings>
+            <Item1 Ref="5" PropertyName="Rtf" DataMember="DataSource.Name" />
+            <Item2 Ref="6" PropertyName="Html" DataMember="DataSource.Name" />
+          </DataBindings>
+        </Item1>
+      </Controls>
+    </Item2>
+    <Item3 Ref="7" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="0" Dpi="100" />
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v16.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

@@ -1,0 +1,500 @@
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\Client.exe.config
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\Client.exe
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\Client.pdb
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\Client.xml
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ACSoft.Client.dll
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ASCore.Framework.dll
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ASCore.GUI.dll
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ASCore.Objects.dll
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ASCore.BusinessLogic.dll
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ACSoft.Client.pdb
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ACSoft.Client.xml
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ASCore.Framework.pdb
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ASCore.Framework.xml
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ASCore.GUI.pdb
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ASCore.GUI.xml
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ASCore.Objects.pdb
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ASCore.Objects.xml
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ASCore.BusinessLogic.pdb
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\bin\x86\Debug\ASCore.BusinessLogic.xml
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\obj\x86\Debug\Client.vbprojResolveAssemblyReference.cache
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\obj\x86\Debug\Client.Client.resources
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\obj\x86\Debug\Client.Resources.resources
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\obj\x86\Debug\Client.vbproj.GenerateResource.Cache
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\obj\x86\Debug\Client.exe
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\obj\x86\Debug\Client.xml
+D:\Working\Company Tuan\ACSOft Business Complite\Solution Complite Suce1\Client\obj\x86\Debug\Client.pdb
+D:\Working\Company Tuan\Soft\Solution Complite Suce1\Client\bin\x86\Debug\Client.exe.config
+D:\Working\Company Tuan\Soft\Solution Complite Suce1\Client\obj\x86\Debug\Client.exe
+D:\Working\Company Tuan\Soft\Solution Complite Suce1\Client\obj\x86\Debug\Client.xml
+D:\Working\Company Tuan\Soft\Solution Complite Suce1\Client\obj\x86\Debug\Client.pdb
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\Client.exe.config
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\obj\x86\Debug\Client.exe
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\obj\x86\Debug\Client.xml
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\obj\x86\Debug\Client.pdb
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\Client.exe
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\Client.pdb
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\Client.xml
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ACSoft.Client.dll
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ASCore.Framework.dll
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ASCore.GUI.dll
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ASCore.Objects.dll
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ASCore.BusinessLogic.dll
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ACSoft.Client.pdb
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ACSoft.Client.xml
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ASCore.Framework.pdb
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ASCore.Framework.xml
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ASCore.GUI.pdb
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ASCore.GUI.xml
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ASCore.Objects.pdb
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ASCore.Objects.xml
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ASCore.BusinessLogic.pdb
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\bin\x86\Debug\ASCore.BusinessLogic.xml
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\obj\x86\Debug\Client.vbprojResolveAssemblyReference.cache
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\obj\x86\Debug\Client.Client.resources
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\obj\x86\Debug\Client.Resources.resources
+D:\Working\Company Tuan\Soft\Solution Complite Git\Client\obj\x86\Debug\Client.vbproj.GenerateResource.Cache
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\Client.exe.config
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\Client.exe
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\Client.pdb
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\Client.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ACSoft.Client.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ASCore.Framework.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ASCore.GUI.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ASCore.Objects.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ASCore.BusinessLogic.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraBars.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Utils.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraScheduler.v16.1.Core.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraEditors.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraGrid.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraPivotGrid.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.UI.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Data.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraVerticalGrid.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraLayout.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.Extensions.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraReports.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraNavBar.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraTreeList.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Printing.v16.1.Core.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.RichEdit.v16.1.Core.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraScheduler.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.PivotGrid.v16.1.Core.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraPrinting.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Office.v16.1.Core.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.BonusSkins.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraReports.v16.1.Extensions.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Images.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Sparkline.v16.1.Core.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Pdf.v16.1.Core.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Charts.v16.1.Core.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Wizard.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraGauges.v16.1.Core.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Utils.v16.1.UI.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.DataAccess.v16.1.UI.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.DataAccess.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Extensions.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.CodeParser.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraDiagram.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Diagram.v16.1.Core.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Xpo.v16.1.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ACSoft.Client.pdb
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ACSoft.Client.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ACSoft.Client.dll.config
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ASCore.Framework.pdb
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ASCore.Framework.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ASCore.GUI.pdb
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ASCore.GUI.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ASCore.Objects.pdb
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ASCore.Objects.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ASCore.BusinessLogic.pdb
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ASCore.BusinessLogic.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraBars.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Utils.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraScheduler.v16.1.Core.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraEditors.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraGrid.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraPivotGrid.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.UI.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Data.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraVerticalGrid.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraLayout.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.Extensions.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraReports.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraNavBar.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraTreeList.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Printing.v16.1.Core.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.RichEdit.v16.1.Core.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraScheduler.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.PivotGrid.v16.1.Core.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraPrinting.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Office.v16.1.Core.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraReports.v16.1.Extensions.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Sparkline.v16.1.Core.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Pdf.v16.1.Core.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Wizard.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraGauges.v16.1.Core.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Utils.v16.1.UI.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.DataAccess.v16.1.UI.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.DataAccess.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraDiagram.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Diagram.v16.1.Core.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Xpo.v16.1.xml
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Utils.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Utils.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraRichEdit.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraRichEdit.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraRichEdit.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraRichEdit.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraPivotGrid.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraPivotGrid.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraPivotGrid.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraPivotGrid.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Data.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Data.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Data.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Data.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraReports.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraReports.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraReports.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraReports.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraScheduler.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraScheduler.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraScheduler.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraScheduler.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraCharts.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraCharts.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraCharts.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraCharts.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.PivotGrid.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.PivotGrid.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.PivotGrid.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.PivotGrid.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraGauges.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraGauges.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraGauges.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraGauges.v16.1.Core.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Utils.v16.1.UI.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Utils.v16.1.UI.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Utils.v16.1.UI.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Utils.v16.1.UI.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.DataAccess.v16.1.UI.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.DataAccess.v16.1.UI.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.DataAccess.v16.1.UI.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.DataAccess.v16.1.UI.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.DataAccess.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.DataAccess.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.DataAccess.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.DataAccess.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Xpo.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Xpo.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Xpo.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Xpo.v16.1.resources.dll
+E:\soft git\Solution Complite Git\Client\obj\x86\Debug\Client.vbprojResolveAssemblyReference.cache
+E:\soft git\Solution Complite Git\Client\obj\x86\Debug\Client.Client.resources
+E:\soft git\Solution Complite Git\Client\obj\x86\Debug\Client.Resources.resources
+E:\soft git\Solution Complite Git\Client\obj\x86\Debug\Client.vbproj.GenerateResource.cache
+E:\soft git\Solution Complite Git\Client\obj\x86\Debug\Client.vbproj.CoreCompileInputs.cache
+E:\soft git\Solution Complite Git\Client\obj\x86\Debug\Client.vbproj.CopyComplete
+E:\soft git\Solution Complite Git\Client\obj\x86\Debug\Client.exe
+E:\soft git\Solution Complite Git\Client\obj\x86\Debug\Client.xml
+E:\soft git\Solution Complite Git\Client\obj\x86\Debug\Client.pdb
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\Client.exe.config
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\Client.exe
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\Client.pdb
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\Client.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ACSoft.Client.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ASCore.Framework.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ASCore.GUI.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ASCore.Objects.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ASCore.BusinessLogic.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraBars.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Utils.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraScheduler.v16.1.Core.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraEditors.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraGrid.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraPivotGrid.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.UI.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Data.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraVerticalGrid.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraLayout.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.Extensions.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraReports.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraNavBar.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraTreeList.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Printing.v16.1.Core.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.RichEdit.v16.1.Core.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraScheduler.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.PivotGrid.v16.1.Core.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraPrinting.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Office.v16.1.Core.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.BonusSkins.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraReports.v16.1.Extensions.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Images.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Sparkline.v16.1.Core.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Pdf.v16.1.Core.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Charts.v16.1.Core.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Wizard.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraGauges.v16.1.Core.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Utils.v16.1.UI.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.DataAccess.v16.1.UI.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.DataAccess.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Extensions.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.CodeParser.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraDiagram.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Diagram.v16.1.Core.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Xpo.v16.1.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ACSoft.Client.pdb
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ACSoft.Client.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ACSoft.Client.dll.config
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ASCore.Framework.pdb
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ASCore.Framework.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ASCore.GUI.pdb
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ASCore.GUI.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ASCore.Objects.pdb
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ASCore.Objects.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ASCore.BusinessLogic.pdb
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ASCore.BusinessLogic.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraBars.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Utils.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraScheduler.v16.1.Core.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraEditors.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraGrid.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraPivotGrid.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.UI.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Data.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraVerticalGrid.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraLayout.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.Extensions.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraReports.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraNavBar.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraTreeList.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Printing.v16.1.Core.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.RichEdit.v16.1.Core.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraScheduler.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.PivotGrid.v16.1.Core.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraPrinting.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Office.v16.1.Core.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraReports.v16.1.Extensions.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Sparkline.v16.1.Core.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Pdf.v16.1.Core.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Wizard.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraGauges.v16.1.Core.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Utils.v16.1.UI.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.DataAccess.v16.1.UI.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.DataAccess.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.XtraDiagram.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Diagram.v16.1.Core.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\DevExpress.Xpo.v16.1.xml
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Utils.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Utils.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraRichEdit.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraRichEdit.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraRichEdit.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraRichEdit.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraPivotGrid.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraPivotGrid.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraPivotGrid.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraPivotGrid.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Data.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Data.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Data.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Data.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraReports.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraReports.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraReports.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraReports.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraScheduler.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraScheduler.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraScheduler.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraScheduler.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraCharts.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraCharts.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraCharts.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraCharts.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.PivotGrid.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.PivotGrid.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.PivotGrid.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.PivotGrid.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.XtraGauges.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.XtraGauges.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.XtraGauges.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.XtraGauges.v16.1.Core.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Utils.v16.1.UI.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Utils.v16.1.UI.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Utils.v16.1.UI.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Utils.v16.1.UI.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.DataAccess.v16.1.UI.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.DataAccess.v16.1.UI.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.DataAccess.v16.1.UI.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.DataAccess.v16.1.UI.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.DataAccess.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.DataAccess.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.DataAccess.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.DataAccess.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\de\DevExpress.Xpo.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\es\DevExpress.Xpo.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ja\DevExpress.Xpo.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\bin\x86\Debug\ru\DevExpress.Xpo.v16.1.resources.dll
+E:\eAcademy\Solution Complite Git\Client\obj\x86\Debug\Client.vbprojAssemblyReference.cache
+E:\eAcademy\Solution Complite Git\Client\obj\x86\Debug\Client.Client.resources
+E:\eAcademy\Solution Complite Git\Client\obj\x86\Debug\Client.Resources.resources
+E:\eAcademy\Solution Complite Git\Client\obj\x86\Debug\Client.vbproj.GenerateResource.cache
+E:\eAcademy\Solution Complite Git\Client\obj\x86\Debug\Client.vbproj.CoreCompileInputs.cache
+E:\eAcademy\Solution Complite Git\Client\obj\x86\Debug\Client.vbproj.CopyComplete
+E:\eAcademy\Solution Complite Git\Client\obj\x86\Debug\Client.exe
+E:\eAcademy\Solution Complite Git\Client\obj\x86\Debug\Client.xml
+E:\eAcademy\Solution Complite Git\Client\obj\x86\Debug\Client.pdb

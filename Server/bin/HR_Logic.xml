@@ -1,0 +1,82 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HR_Logic
+</name>
+</assembly>
+<members>
+<member name="T:HR_Logic.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:HR_Logic.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:HR_Logic.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:HR_Logic.HR_Logic.HREmployeeWorkShiftSecond(ASCore.Objects.TMethodSource@,ASCore.Objects.TMethodArgs@)">
+ <summary>
+ Hàm thay đổi lịch làm việc
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:HR_Logic.HR_Logic.DeleteData(ASCore.Objects.TMethodSource@,ASCore.Objects.TMethodArgs@)">
+ <summary>
+ Xoa sap xep lich lam viec
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:HR_Logic.HR_Logic.EmployeeWorkingArrangement(ASCore.Objects.TMethodSource@,ASCore.Objects.TMethodArgs@)">
+ <summary>
+ Hàm xếp lịch làm việc cho nhân viên
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:HR_Logic.HR_Logic.HREmployeeAbsence(ASCore.Objects.TMethodSource@,ASCore.Objects.TMethodArgs@)">
+ <summary>
+ Đăng ký nghỉ vắng
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:HR_Logic.HR_Logic.HREmployeeTransact(ASCore.Objects.TMethodSource@,ASCore.Objects.TMethodArgs@)">
+ <summary>
+ Lập bảng lương nhân viên
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:HR_Logic.HR_Logic.GetEmployeeWorkShiftGroup(ASCore.Objects.TMethodSource@,ASCore.Objects.TMethodArgs@)">
+ <summary>
+ Lập lịch làm việc cho từng nhân viên
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:HR_Logic.HR_Logic.DeleteEmployeeAbsence(ASCore.Objects.TMethodSource@,ASCore.Objects.TMethodArgs@)">
+ <summary>
+ Xóa đăng ký nghỉ vắng
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:HR_Logic.HR_Logic.ApproveEmployeeAbsence(ASCore.Objects.TMethodSource@,ASCore.Objects.TMethodArgs@)">
+ <summary>
+ Duyệt đăng ký nghỉ của nhân viên
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

@@ -1,0 +1,850 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="15.1.5.0" Ref="1" Name="XtraReport" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataSource="#Ref-0" DataMember="DataSource" Version="15.1" PageWidth="1268" PageHeight="1752" PaperKind="A3Extra" Margins="18, 9, 151, 102">
+  <Bands>
+    <Item1 Ref="2" Name="topMarginBand1" ControlType="TopMarginBand" HeightF="151">
+      <Controls>
+        <Item1 Ref="3" Name="label12" ControlType="XRLabel" SizeF="90.9637451,23.0000038" LocationFloat="513.2903, 36.5416679" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Text="Đến ngày">
+          <StylePriority Ref="4" UseFont="false" />
+        </Item1>
+        <Item2 Ref="5" Name="label11" ControlType="XRLabel" SizeF="100,23" LocationFloat="131.362823, 36.5416679" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Text="Từ ngày">
+          <StylePriority Ref="6" UseFont="false" />
+        </Item2>
+        <Item3 Ref="7" Name="label10" ControlType="XRLabel" SizeF="151.60614,23.0000038" LocationFloat="634.575134, 36.5416679" Padding="2,2,0,0,100" Text="label10">
+          <DataBindings>
+            <Item1 Ref="8" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="DataSource.FinalMonth" />
+          </DataBindings>
+        </Item3>
+        <Item4 Ref="9" Name="label9" ControlType="XRLabel" SizeF="160.642456,23.0000038" LocationFloat="292.005341, 36.5416679" Padding="2,2,0,0,100" Text="label9">
+          <DataBindings>
+            <Item1 Ref="10" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="DataSource.FirstMonth" />
+          </DataBindings>
+        </Item4>
+        <Item5 Ref="11" Name="label7" ControlType="XRLabel" SizeF="1240.99976,36.5416679" LocationFloat="0, 0" Font="Times New Roman, 16pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopCenter" Text="BÁO CÁO CHI TIẾT CÔNG">
+          <StylePriority Ref="12" UseFont="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="13" Name="table2" ControlType="XRTable" SizeF="939.9584,25" LocationFloat="301.041626, 100.999992" Font="Times New Roman, 9.75pt, style=Bold" Borders="All" TextAlignment="TopCenter">
+          <Rows>
+            <Item1 Ref="14" ControlType="XRTableRow" Name="tableRow2" Weight="11.5">
+              <Cells>
+                <Item1 Ref="15" Name="tableCell32" ControlType="XRTableCell" Text="1" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="17" Value="#Ref-16" />
+                  </FormattingRuleLinks>
+                </Item1>
+                <Item2 Ref="18" Name="tableCell33" ControlType="XRTableCell" Text="2" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="20" Value="#Ref-19" />
+                  </FormattingRuleLinks>
+                </Item2>
+                <Item3 Ref="21" Name="tableCell34" ControlType="XRTableCell" Text="3" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="23" Value="#Ref-22" />
+                  </FormattingRuleLinks>
+                </Item3>
+                <Item4 Ref="24" Name="tableCell35" ControlType="XRTableCell" Text="4" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="26" Value="#Ref-25" />
+                  </FormattingRuleLinks>
+                </Item4>
+                <Item5 Ref="27" Name="tableCell36" ControlType="XRTableCell" Text="5" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="29" Value="#Ref-28" />
+                  </FormattingRuleLinks>
+                </Item5>
+                <Item6 Ref="30" Name="tableCell37" ControlType="XRTableCell" Text="6" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="32" Value="#Ref-31" />
+                  </FormattingRuleLinks>
+                </Item6>
+                <Item7 Ref="33" Name="tableCell38" ControlType="XRTableCell" Text="7" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="35" Value="#Ref-34" />
+                  </FormattingRuleLinks>
+                </Item7>
+                <Item8 Ref="36" Name="tableCell39" ControlType="XRTableCell" Text="8" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="38" Value="#Ref-37" />
+                  </FormattingRuleLinks>
+                </Item8>
+                <Item9 Ref="39" Name="tableCell40" ControlType="XRTableCell" Text="9" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="41" Value="#Ref-40" />
+                  </FormattingRuleLinks>
+                </Item9>
+                <Item10 Ref="42" Name="tableCell41" ControlType="XRTableCell" Text="10" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="44" Value="#Ref-43" />
+                  </FormattingRuleLinks>
+                </Item10>
+                <Item11 Ref="45" Name="tableCell42" ControlType="XRTableCell" Text="11" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="47" Value="#Ref-46" />
+                  </FormattingRuleLinks>
+                </Item11>
+                <Item12 Ref="48" Name="tableCell43" ControlType="XRTableCell" Text="12" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="50" Value="#Ref-49" />
+                  </FormattingRuleLinks>
+                </Item12>
+                <Item13 Ref="51" Name="tableCell44" ControlType="XRTableCell" Text="13" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="53" Value="#Ref-52" />
+                  </FormattingRuleLinks>
+                </Item13>
+                <Item14 Ref="54" Name="tableCell45" ControlType="XRTableCell" Text="14" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="56" Value="#Ref-55" />
+                  </FormattingRuleLinks>
+                </Item14>
+                <Item15 Ref="57" Name="tableCell46" ControlType="XRTableCell" Text="15" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="59" Value="#Ref-58" />
+                  </FormattingRuleLinks>
+                </Item15>
+                <Item16 Ref="60" Name="tableCell47" ControlType="XRTableCell" Text="16" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="62" Value="#Ref-61" />
+                  </FormattingRuleLinks>
+                </Item16>
+                <Item17 Ref="63" Name="tableCell48" ControlType="XRTableCell" Text="17" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="65" Value="#Ref-64" />
+                  </FormattingRuleLinks>
+                </Item17>
+                <Item18 Ref="66" Name="tableCell49" ControlType="XRTableCell" Text="18" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="68" Value="#Ref-67" />
+                  </FormattingRuleLinks>
+                </Item18>
+                <Item19 Ref="69" Name="tableCell50" ControlType="XRTableCell" Text="19" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="71" Value="#Ref-70" />
+                  </FormattingRuleLinks>
+                </Item19>
+                <Item20 Ref="72" Name="tableCell51" ControlType="XRTableCell" Text="20" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="74" Value="#Ref-73" />
+                  </FormattingRuleLinks>
+                </Item20>
+                <Item21 Ref="75" Name="tableCell52" ControlType="XRTableCell" Text="21" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="77" Value="#Ref-76" />
+                  </FormattingRuleLinks>
+                </Item21>
+                <Item22 Ref="78" Name="tableCell53" ControlType="XRTableCell" Text="22" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="80" Value="#Ref-79" />
+                  </FormattingRuleLinks>
+                </Item22>
+                <Item23 Ref="81" Name="tableCell54" ControlType="XRTableCell" Text="23" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="83" Value="#Ref-82" />
+                  </FormattingRuleLinks>
+                </Item23>
+                <Item24 Ref="84" Name="tableCell55" ControlType="XRTableCell" Text="24" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="86" Value="#Ref-85" />
+                  </FormattingRuleLinks>
+                </Item24>
+                <Item25 Ref="87" Name="tableCell56" ControlType="XRTableCell" Text="25" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="89" Value="#Ref-88" />
+                  </FormattingRuleLinks>
+                </Item25>
+                <Item26 Ref="90" Name="tableCell57" ControlType="XRTableCell" Text="26" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="92" Value="#Ref-91" />
+                  </FormattingRuleLinks>
+                </Item26>
+                <Item27 Ref="93" Name="tableCell58" ControlType="XRTableCell" Text="27" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="95" Value="#Ref-94" />
+                  </FormattingRuleLinks>
+                </Item27>
+                <Item28 Ref="96" Name="tableCell59" ControlType="XRTableCell" Text="28" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="98" Value="#Ref-97" />
+                  </FormattingRuleLinks>
+                </Item28>
+                <Item29 Ref="99" Name="tableCell60" ControlType="XRTableCell" Text="29" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="101" Value="#Ref-100" />
+                  </FormattingRuleLinks>
+                </Item29>
+                <Item30 Ref="102" Name="tableCell61" ControlType="XRTableCell" Text="30" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="104" Value="#Ref-103" />
+                  </FormattingRuleLinks>
+                </Item30>
+                <Item31 Ref="105" Name="tableCell62" ControlType="XRTableCell" Text="31" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="107" Value="#Ref-106" />
+                  </FormattingRuleLinks>
+                </Item31>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="108" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="109" Name="table1" ControlType="XRTable" SizeF="939.9584,25" LocationFloat="301.041626, 125.999992" Font="Times New Roman, 9.75pt, style=Bold" Borders="All" TextAlignment="TopCenter">
+          <Rows>
+            <Item1 Ref="110" ControlType="XRTableRow" Name="tableRow1" Weight="11.5">
+              <Cells>
+                <Item1 Ref="111" Name="tableCell1" ControlType="XRTableCell" Text="tableCell1" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="112" Value="#Ref-16" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="113" PropertyName="Text" DataMember="Table1.1" />
+                  </DataBindings>
+                </Item1>
+                <Item2 Ref="114" Name="tableCell2" ControlType="XRTableCell" Text="tableCell2" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="115" Value="#Ref-19" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="116" PropertyName="Text" DataMember="Table1.2" />
+                  </DataBindings>
+                </Item2>
+                <Item3 Ref="117" Name="tableCell3" ControlType="XRTableCell" Text="tableCell3" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="118" Value="#Ref-22" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="119" PropertyName="Text" DataMember="Table1.3" />
+                  </DataBindings>
+                </Item3>
+                <Item4 Ref="120" Name="tableCell4" ControlType="XRTableCell" Text="tableCell4" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="121" Value="#Ref-25" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="122" PropertyName="Text" DataMember="Table1.4" />
+                  </DataBindings>
+                </Item4>
+                <Item5 Ref="123" Name="tableCell5" ControlType="XRTableCell" Text="tableCell5" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="124" Value="#Ref-28" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="125" PropertyName="Text" DataMember="Table1.5" />
+                  </DataBindings>
+                </Item5>
+                <Item6 Ref="126" Name="tableCell6" ControlType="XRTableCell" Text="tableCell6" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="127" Value="#Ref-31" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="128" PropertyName="Text" DataMember="Table1.6" />
+                  </DataBindings>
+                </Item6>
+                <Item7 Ref="129" Name="tableCell7" ControlType="XRTableCell" Text="tableCell7" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="130" Value="#Ref-34" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="131" PropertyName="Text" DataMember="Table1.7" />
+                  </DataBindings>
+                </Item7>
+                <Item8 Ref="132" Name="tableCell8" ControlType="XRTableCell" Text="tableCell8" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="133" Value="#Ref-37" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="134" PropertyName="Text" DataMember="Table1.8" />
+                  </DataBindings>
+                </Item8>
+                <Item9 Ref="135" Name="tableCell9" ControlType="XRTableCell" Text="tableCell9" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="136" Value="#Ref-40" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="137" PropertyName="Text" DataMember="Table1.9" />
+                  </DataBindings>
+                </Item9>
+                <Item10 Ref="138" Name="tableCell10" ControlType="XRTableCell" Text="tableCell10" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="139" Value="#Ref-43" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="140" PropertyName="Text" DataMember="Table1.10" />
+                  </DataBindings>
+                </Item10>
+                <Item11 Ref="141" Name="tableCell11" ControlType="XRTableCell" Text="tableCell11" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="142" Value="#Ref-46" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="143" PropertyName="Text" DataMember="Table1.11" />
+                  </DataBindings>
+                </Item11>
+                <Item12 Ref="144" Name="tableCell12" ControlType="XRTableCell" Text="tableCell12" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="145" Value="#Ref-49" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="146" PropertyName="Text" DataMember="Table1.12" />
+                  </DataBindings>
+                </Item12>
+                <Item13 Ref="147" Name="tableCell13" ControlType="XRTableCell" Text="tableCell13" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="148" Value="#Ref-52" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="149" PropertyName="Text" DataMember="Table1.13" />
+                  </DataBindings>
+                </Item13>
+                <Item14 Ref="150" Name="tableCell14" ControlType="XRTableCell" Text="tableCell14" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="151" Value="#Ref-55" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="152" PropertyName="Text" DataMember="Table1.14" />
+                  </DataBindings>
+                </Item14>
+                <Item15 Ref="153" Name="tableCell15" ControlType="XRTableCell" Text="tableCell15" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="154" Value="#Ref-58" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="155" PropertyName="Text" DataMember="Table1.15" />
+                  </DataBindings>
+                </Item15>
+                <Item16 Ref="156" Name="tableCell16" ControlType="XRTableCell" Text="tableCell16" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="157" Value="#Ref-61" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="158" PropertyName="Text" DataMember="Table1.16" />
+                  </DataBindings>
+                </Item16>
+                <Item17 Ref="159" Name="tableCell17" ControlType="XRTableCell" Text="tableCell17" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="160" Value="#Ref-64" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="161" PropertyName="Text" DataMember="Table1.17" />
+                  </DataBindings>
+                </Item17>
+                <Item18 Ref="162" Name="tableCell18" ControlType="XRTableCell" Text="tableCell18" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="163" Value="#Ref-67" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="164" PropertyName="Text" DataMember="Table1.18" />
+                  </DataBindings>
+                </Item18>
+                <Item19 Ref="165" Name="tableCell19" ControlType="XRTableCell" Text="tableCell19" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="166" Value="#Ref-70" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="167" PropertyName="Text" DataMember="Table1.19" />
+                  </DataBindings>
+                </Item19>
+                <Item20 Ref="168" Name="tableCell20" ControlType="XRTableCell" Text="tableCell20" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="169" Value="#Ref-73" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="170" PropertyName="Text" DataMember="Table1.20" />
+                  </DataBindings>
+                </Item20>
+                <Item21 Ref="171" Name="tableCell21" ControlType="XRTableCell" Text="tableCell21" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="172" Value="#Ref-76" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="173" PropertyName="Text" DataMember="Table1.21" />
+                  </DataBindings>
+                </Item21>
+                <Item22 Ref="174" Name="tableCell22" ControlType="XRTableCell" Text="tableCell22" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="175" Value="#Ref-79" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="176" PropertyName="Text" DataMember="Table1.22" />
+                  </DataBindings>
+                </Item22>
+                <Item23 Ref="177" Name="tableCell23" ControlType="XRTableCell" Text="tableCell23" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="178" Value="#Ref-82" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="179" PropertyName="Text" DataMember="Table1.23" />
+                  </DataBindings>
+                </Item23>
+                <Item24 Ref="180" Name="tableCell24" ControlType="XRTableCell" Text="tableCell24" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="181" Value="#Ref-85" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="182" PropertyName="Text" DataMember="Table1.24" />
+                  </DataBindings>
+                </Item24>
+                <Item25 Ref="183" Name="tableCell25" ControlType="XRTableCell" Text="tableCell25" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="184" Value="#Ref-88" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="185" PropertyName="Text" DataMember="Table1.25" />
+                  </DataBindings>
+                </Item25>
+                <Item26 Ref="186" Name="tableCell26" ControlType="XRTableCell" Text="tableCell26" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="187" Value="#Ref-91" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="188" PropertyName="Text" DataMember="Table1.26" />
+                  </DataBindings>
+                </Item26>
+                <Item27 Ref="189" Name="tableCell27" ControlType="XRTableCell" Text="tableCell27" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="190" Value="#Ref-94" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="191" PropertyName="Text" DataMember="Table1.27" />
+                  </DataBindings>
+                </Item27>
+                <Item28 Ref="192" Name="tableCell28" ControlType="XRTableCell" Text="tableCell28" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="193" Value="#Ref-97" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="194" PropertyName="Text" DataMember="Table1.28" />
+                  </DataBindings>
+                </Item28>
+                <Item29 Ref="195" Name="tableCell29" ControlType="XRTableCell" Text="tableCell29" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="196" Value="#Ref-100" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="197" PropertyName="Text" DataMember="Table1.29" />
+                  </DataBindings>
+                </Item29>
+                <Item30 Ref="198" Name="tableCell30" ControlType="XRTableCell" Text="tableCell30" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="199" Value="#Ref-103" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="200" PropertyName="Text" DataMember="Table1.30" />
+                  </DataBindings>
+                </Item30>
+                <Item31 Ref="201" Name="tableCell31" ControlType="XRTableCell" Text="tableCell31" Weight="0.086956521739130432">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="202" Value="#Ref-106" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="203" PropertyName="Text" DataMember="Table1.31" />
+                  </DataBindings>
+                </Item31>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="204" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="205" Name="label3" ControlType="XRLabel" SizeF="138.541672,49.9999924" LocationFloat="162.499954, 100.999992" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Họ và tên">
+          <StylePriority Ref="206" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="207" Name="label2" ControlType="XRLabel" SizeF="62.5,49.9999771" LocationFloat="100, 100.999992" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Mã NV">
+          <StylePriority Ref="208" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="209" Name="label1" ControlType="XRLabel" SizeF="100,49.9999924" LocationFloat="0, 100.999992" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Phòng ban">
+          <StylePriority Ref="210" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item10>
+      </Controls>
+    </Item1>
+    <Item2 Ref="211" ControlType="DetailBand" Name="detailBand1" HeightF="23.0000019">
+      <Controls>
+        <Item1 Ref="212" Name="table3" ControlType="XRTable" SizeF="939.958252,23.0000019" LocationFloat="301.0416, 0" Borders="All">
+          <Rows>
+            <Item1 Ref="213" ControlType="XRTableRow" Name="tableRow3" Weight="11.5">
+              <Cells>
+                <Item1 Ref="214" Name="tableCell63" ControlType="XRTableCell" Borders="All" Text="tableCell63" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="215" Value="#Ref-16" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="216" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.1" />
+                  </DataBindings>
+                  <StylePriority Ref="217" UseBorders="false" />
+                </Item1>
+                <Item2 Ref="218" Name="tableCell64" ControlType="XRTableCell" Text="tableCell64" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="219" Value="#Ref-19" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="220" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.2" />
+                  </DataBindings>
+                </Item2>
+                <Item3 Ref="221" Name="tableCell65" ControlType="XRTableCell" Text="tableCell65" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="222" Value="#Ref-22" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="223" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.3" />
+                  </DataBindings>
+                </Item3>
+                <Item4 Ref="224" Name="tableCell66" ControlType="XRTableCell" Text="tableCell66" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="225" Value="#Ref-25" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="226" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.4" />
+                  </DataBindings>
+                </Item4>
+                <Item5 Ref="227" Name="tableCell67" ControlType="XRTableCell" Text="tableCell67" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="228" Value="#Ref-28" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="229" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.5" />
+                  </DataBindings>
+                </Item5>
+                <Item6 Ref="230" Name="tableCell68" ControlType="XRTableCell" Text="tableCell68" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="231" Value="#Ref-31" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="232" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.6" />
+                  </DataBindings>
+                </Item6>
+                <Item7 Ref="233" Name="tableCell69" ControlType="XRTableCell" Text="tableCell69" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="234" Value="#Ref-34" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="235" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.7" />
+                  </DataBindings>
+                </Item7>
+                <Item8 Ref="236" Name="tableCell70" ControlType="XRTableCell" Text="tableCell70" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="237" Value="#Ref-37" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="238" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.8" />
+                  </DataBindings>
+                </Item8>
+                <Item9 Ref="239" Name="tableCell71" ControlType="XRTableCell" Text="tableCell71" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="240" Value="#Ref-40" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="241" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.9" />
+                  </DataBindings>
+                </Item9>
+                <Item10 Ref="242" Name="tableCell72" ControlType="XRTableCell" Text="tableCell72" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="243" Value="#Ref-43" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="244" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.10" />
+                  </DataBindings>
+                </Item10>
+                <Item11 Ref="245" Name="tableCell73" ControlType="XRTableCell" Text="tableCell73" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="246" Value="#Ref-46" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="247" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.11" />
+                  </DataBindings>
+                </Item11>
+                <Item12 Ref="248" Name="tableCell74" ControlType="XRTableCell" Text="tableCell74" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="249" Value="#Ref-49" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="250" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.12" />
+                  </DataBindings>
+                </Item12>
+                <Item13 Ref="251" Name="tableCell75" ControlType="XRTableCell" Text="tableCell75" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="252" Value="#Ref-52" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="253" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.13" />
+                  </DataBindings>
+                </Item13>
+                <Item14 Ref="254" Name="tableCell76" ControlType="XRTableCell" Text="tableCell76" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="255" Value="#Ref-55" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="256" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.14" />
+                  </DataBindings>
+                </Item14>
+                <Item15 Ref="257" Name="tableCell77" ControlType="XRTableCell" Text="tableCell77" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="258" Value="#Ref-58" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="259" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.15" />
+                  </DataBindings>
+                </Item15>
+                <Item16 Ref="260" Name="tableCell78" ControlType="XRTableCell" Text="tableCell78" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="261" Value="#Ref-61" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="262" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.16" />
+                  </DataBindings>
+                </Item16>
+                <Item17 Ref="263" Name="tableCell79" ControlType="XRTableCell" Text="tableCell79" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="264" Value="#Ref-64" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="265" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.17" />
+                  </DataBindings>
+                </Item17>
+                <Item18 Ref="266" Name="tableCell80" ControlType="XRTableCell" Text="tableCell80" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="267" Value="#Ref-67" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="268" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.18" />
+                  </DataBindings>
+                </Item18>
+                <Item19 Ref="269" Name="tableCell81" ControlType="XRTableCell" Text="tableCell81" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="270" Value="#Ref-70" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="271" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.19" />
+                  </DataBindings>
+                </Item19>
+                <Item20 Ref="272" Name="tableCell82" ControlType="XRTableCell" Text="tableCell82" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="273" Value="#Ref-73" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="274" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.20" />
+                  </DataBindings>
+                </Item20>
+                <Item21 Ref="275" Name="tableCell83" ControlType="XRTableCell" Text="tableCell83" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="276" Value="#Ref-76" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="277" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.21" />
+                  </DataBindings>
+                </Item21>
+                <Item22 Ref="278" Name="tableCell84" ControlType="XRTableCell" Text="tableCell84" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="279" Value="#Ref-79" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="280" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.22" />
+                  </DataBindings>
+                </Item22>
+                <Item23 Ref="281" Name="tableCell85" ControlType="XRTableCell" Text="tableCell85" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="282" Value="#Ref-82" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="283" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.23" />
+                  </DataBindings>
+                </Item23>
+                <Item24 Ref="284" Name="tableCell86" ControlType="XRTableCell" Text="tableCell86" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="285" Value="#Ref-85" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="286" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.24" />
+                  </DataBindings>
+                </Item24>
+                <Item25 Ref="287" Name="tableCell87" ControlType="XRTableCell" Text="tableCell87" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="288" Value="#Ref-88" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="289" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.25" />
+                  </DataBindings>
+                </Item25>
+                <Item26 Ref="290" Name="tableCell88" ControlType="XRTableCell" Text="tableCell88" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="291" Value="#Ref-91" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="292" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.26" />
+                  </DataBindings>
+                </Item26>
+                <Item27 Ref="293" Name="tableCell89" ControlType="XRTableCell" Text="tableCell89" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="294" Value="#Ref-94" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="295" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.27" />
+                  </DataBindings>
+                </Item27>
+                <Item28 Ref="296" Name="tableCell90" ControlType="XRTableCell" Text="tableCell90" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="297" Value="#Ref-97" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="298" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.28" />
+                  </DataBindings>
+                </Item28>
+                <Item29 Ref="299" Name="tableCell91" ControlType="XRTableCell" Text="tableCell91" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="300" Value="#Ref-100" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="301" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.29" />
+                  </DataBindings>
+                </Item29>
+                <Item30 Ref="302" Name="tableCell92" ControlType="XRTableCell" Text="tableCell92" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="303" Value="#Ref-103" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="304" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.30" />
+                  </DataBindings>
+                </Item30>
+                <Item31 Ref="305" Name="tableCell93" ControlType="XRTableCell" Text="tableCell93" Weight="0.080580177276390011">
+                  <FormattingRuleLinks>
+                    <Item1 Ref="306" Value="#Ref-106" />
+                  </FormattingRuleLinks>
+                  <DataBindings>
+                    <Item1 Ref="307" FormatString="{0:#0.0;;\-}" PropertyName="Text" DataMember="DataSource.31" />
+                  </DataBindings>
+                </Item31>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="308" UseBorders="false" />
+        </Item1>
+        <Item2 Ref="309" Name="label6" ControlType="XRLabel" WordWrap="false" SizeF="138.5416,23.0000019" LocationFloat="162.5, 0" Padding="2,2,0,0,100" Borders="All" Text="label6">
+          <DataBindings>
+            <Item1 Ref="310" PropertyName="Text" DataMember="DataSource.Employee Name" />
+          </DataBindings>
+          <StylePriority Ref="311" UseBorders="false" />
+        </Item2>
+        <Item3 Ref="312" Name="label5" ControlType="XRLabel" WordWrap="false" SizeF="62.5,23.0000019" LocationFloat="100, 0" Padding="2,2,0,0,100" Borders="All" Text="label5">
+          <DataBindings>
+            <Item1 Ref="313" PropertyName="Text" DataMember="DataSource.Employee Code" />
+          </DataBindings>
+          <StylePriority Ref="314" UseBorders="false" />
+        </Item3>
+        <Item4 Ref="315" Name="label4" ControlType="XRLabel" WordWrap="false" SizeF="100,23" LocationFloat="0, 0" Padding="2,2,0,0,100" Borders="All" Text="label4">
+          <DataBindings>
+            <Item1 Ref="316" PropertyName="Text" DataMember="DataSource.Department" />
+          </DataBindings>
+          <StylePriority Ref="317" UseBorders="false" />
+        </Item4>
+      </Controls>
+    </Item2>
+    <Item3 Ref="318" Name="bottomMarginBand1" ControlType="BottomMarginBand" HeightF="101.999985" />
+    <Item4 Ref="319" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="23.0000019">
+      <Controls>
+        <Item1 Ref="320" Name="label8" ControlType="XRLabel" WordWrap="false" SizeF="1240.99976,23.0000019" LocationFloat="0, 0" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All">
+          <DataBindings>
+            <Item1 Ref="321" PropertyName="Text" DataMember="DataSource.Department Name" />
+          </DataBindings>
+          <StylePriority Ref="322" UseFont="false" UseBorders="false" />
+        </Item1>
+      </Controls>
+      <GroupFields>
+        <Item1 Ref="323" FieldName="Department" />
+      </GroupFields>
+    </Item4>
+  </Bands>
+  <FormattingRuleSheet>
+    <Item1 Ref="16" Name="formattingRule1" DataMember="Table1" Condition="[1]='CN'">
+      <Formatting Ref="324" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item1>
+    <Item2 Ref="19" Name="formattingRule2" DataMember="Table1" Condition="[2]='CN'">
+      <Formatting Ref="325" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item2>
+    <Item3 Ref="22" Name="formattingRule3" DataMember="Table1" Condition="[3]='CN'">
+      <Formatting Ref="326" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item3>
+    <Item4 Ref="25" Name="formattingRule4" DataMember="Table1" Condition="[4]='CN'">
+      <Formatting Ref="327" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item4>
+    <Item5 Ref="28" Name="formattingRule5" DataMember="Table1" Condition="[5]='CN'">
+      <Formatting Ref="328" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item5>
+    <Item6 Ref="31" Name="formattingRule6" DataMember="Table1" Condition="[6]='CN'">
+      <Formatting Ref="329" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item6>
+    <Item7 Ref="34" Name="formattingRule7" DataMember="Table1" Condition="[7]='CN'">
+      <Formatting Ref="330" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item7>
+    <Item8 Ref="37" Name="formattingRule8" DataMember="Table1" Condition="[8]='CN'">
+      <Formatting Ref="331" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item8>
+    <Item9 Ref="40" Name="formattingRule9" DataMember="Table1" Condition="[9]='CN'">
+      <Formatting Ref="332" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item9>
+    <Item10 Ref="43" Name="formattingRule10" DataMember="Table1" Condition="[10]='CN'">
+      <Formatting Ref="333" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item10>
+    <Item11 Ref="46" Name="formattingRule11" DataMember="Table1" Condition="[11]='CN'">
+      <Formatting Ref="334" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item11>
+    <Item12 Ref="49" Name="formattingRule12" DataMember="Table1" Condition="[12]='CN'">
+      <Formatting Ref="335" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item12>
+    <Item13 Ref="52" Name="formattingRule13" DataMember="Table1" Condition="[13]='CN'">
+      <Formatting Ref="336" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item13>
+    <Item14 Ref="55" Name="formattingRule14" DataMember="Table1" Condition="[14]='CN'">
+      <Formatting Ref="337" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item14>
+    <Item15 Ref="58" Name="formattingRule15" DataMember="Table1" Condition="[15]='CN'">
+      <Formatting Ref="338" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item15>
+    <Item16 Ref="61" Name="formattingRule16" DataMember="Table1" Condition="[16]='CN'">
+      <Formatting Ref="339" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item16>
+    <Item17 Ref="64" Name="formattingRule17" DataMember="Table1" Condition="[17]='CN'">
+      <Formatting Ref="340" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item17>
+    <Item18 Ref="67" Name="formattingRule18" DataMember="Table1" Condition="[18]='CN'">
+      <Formatting Ref="341" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item18>
+    <Item19 Ref="70" Name="formattingRule19" DataMember="Table1" Condition="[19]='CN'">
+      <Formatting Ref="342" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item19>
+    <Item20 Ref="73" Name="formattingRule20" DataMember="Table1" Condition="[20]='CN'">
+      <Formatting Ref="343" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item20>
+    <Item21 Ref="76" Name="formattingRule21" DataMember="Table1" Condition="[21]='CN'">
+      <Formatting Ref="344" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item21>
+    <Item22 Ref="79" Name="formattingRule22" DataMember="Table1" Condition="[22]='CN'">
+      <Formatting Ref="345" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item22>
+    <Item23 Ref="82" Name="formattingRule23" DataMember="Table1" Condition="[23]='CN'">
+      <Formatting Ref="346" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item23>
+    <Item24 Ref="85" Name="formattingRule24" DataMember="Table1" Condition="[24]='CN'">
+      <Formatting Ref="347" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item24>
+    <Item25 Ref="88" Name="formattingRule25" DataMember="Table1" Condition="[25]='CN'">
+      <Formatting Ref="348" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item25>
+    <Item26 Ref="91" Name="formattingRule26" DataMember="Table1" Condition="[26]='CN'">
+      <Formatting Ref="349" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item26>
+    <Item27 Ref="94" Name="formattingRule27" DataMember="Table1" Condition="[27]='CN'">
+      <Formatting Ref="350" StringFormat="Near;Near;0;None;Character;Default" BackColor="Red" BorderStyle="Inset" />
+    </Item27>
+    <Item28 Ref="97" Name="formattingRule28" DataMember="Table1" Condition="[28]='CN'">
+      <Formatting Ref="351" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item28>
+    <Item29 Ref="100" Name="formattingRule29" DataMember="Table1" Condition="[29]='CN'">
+      <Formatting Ref="352" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item29>
+    <Item30 Ref="103" Name="formattingRule30" DataMember="Table1" Condition="[30]='CN'">
+      <Formatting Ref="353" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item30>
+    <Item31 Ref="106" Name="formattingRule31" DataMember="Table1" Condition="[31]='CN'">
+      <Formatting Ref="354" StringFormat="Near;Near;0;None;Character;Default" BorderColor="Black" BackColor="Red" BorderStyle="Inset" />
+    </Item31>
+  </FormattingRuleSheet>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v15.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

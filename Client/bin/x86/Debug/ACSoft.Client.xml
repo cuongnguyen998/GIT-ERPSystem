@@ -1,0 +1,128 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ACSoft.Client
+</name>
+</assembly>
+<members>
+<member name="M:ACSoft.Client.MyService.TService.#ctor">
+	<remarks/>
+</member><member name="E:ACSoft.Client.MyService.TService.GetAssemplyCompleted">
+	<remarks/>
+</member><member name="E:ACSoft.Client.MyService.TService.GetLoadFileAssemplyCompleted">
+	<remarks/>
+</member><member name="E:ACSoft.Client.MyService.TService.GetAssemplyReportCompleted">
+	<remarks/>
+</member><member name="E:ACSoft.Client.MyService.TService.CheckFileRepertTemplateCompleted">
+	<remarks/>
+</member><member name="E:ACSoft.Client.MyService.TService.SaveFileByteCompleted">
+	<remarks/>
+</member><member name="E:ACSoft.Client.MyService.TService.AnswerClientCompleted">
+	<remarks/>
+</member><member name="E:ACSoft.Client.MyService.TService.AnswerCompleted">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.GetAssemply(System.String)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.GetAssemplyAsync(System.String)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.GetAssemplyAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.GetLoadFileAssemply(System.String)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.GetLoadFileAssemplyAsync(System.String)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.GetLoadFileAssemplyAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.GetAssemplyReport(System.String)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.GetAssemplyReportAsync(System.String)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.GetAssemplyReportAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.CheckFileRepertTemplate(System.String)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.CheckFileRepertTemplateAsync(System.String)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.CheckFileRepertTemplateAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.SaveFileByte(System.Byte[],System.String)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.SaveFileByteAsync(System.Byte[],System.String)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.SaveFileByteAsync(System.Byte[],System.String,System.Object)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.AnswerClient(System.Byte[]@)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.AnswerClientAsync(System.Byte[])">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.AnswerClientAsync(System.Byte[],System.Object)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.Answer(System.Byte[]@)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.AnswerAsync(System.Byte[])">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.AnswerAsync(System.Byte[],System.Object)">
+	<remarks/>
+</member><member name="M:ACSoft.Client.MyService.TService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.TService">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.GetAssemplyCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ACSoft.Client.MyService.GetAssemplyCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.GetAssemplyCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.GetLoadFileAssemplyCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ACSoft.Client.MyService.GetLoadFileAssemplyCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.GetLoadFileAssemplyCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.GetAssemplyReportCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ACSoft.Client.MyService.GetAssemplyReportCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.GetAssemplyReportCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.CheckFileRepertTemplateCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ACSoft.Client.MyService.CheckFileRepertTemplateCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.CheckFileRepertTemplateCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.SaveFileByteCompletedEventHandler">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.AnswerClientCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ACSoft.Client.MyService.AnswerClientCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:ACSoft.Client.MyService.AnswerClientCompletedEventArgs.Requess">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.AnswerClientCompletedEventArgs">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.AnswerCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ACSoft.Client.MyService.AnswerCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="P:ACSoft.Client.MyService.AnswerCompletedEventArgs.Request">
+	<remarks/>
+</member><member name="T:ACSoft.Client.MyService.AnswerCompletedEventArgs">
+	<remarks/>
+</member><member name="P:ACSoft.Client.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ACSoft.Client.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ACSoft.Client.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

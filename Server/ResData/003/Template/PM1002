@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="15.1.5.0" Ref="1" Name="XtraReport" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataSource="#Ref-0" DataMember="DataSource" Version="15.1" PageWidth="850" PageHeight="1100">
+  <Bands>
+    <Item1 Ref="2" Name="topMarginBand1" ControlType="TopMarginBand" HeightF="100">
+      <Controls>
+        <Item1 Ref="3" Name="label2" ControlType="XRLabel" SizeF="100,23" LocationFloat="0, 57.2916679" Padding="2,2,0,0,100" Text="label2">
+          <DataBindings>
+            <Item1 Ref="4" PropertyName="Text" DataMember="DataSource.Code" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="5" Name="label1" ControlType="XRLabel" SizeF="650,47.29166" LocationFloat="0, 10.0000067" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopCenter" Text="HÓA ĐƠN MUA HÀNG">
+          <StylePriority Ref="6" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+      </Controls>
+    </Item1>
+    <Item2 Ref="7" ControlType="DetailBand" Name="detailBand1" HeightF="100">
+      <Controls>
+        <Item1 Ref="8" Name="label3" ControlType="XRLabel" SizeF="100,23" LocationFloat="0, 0" Padding="2,2,0,0,100" Text="label3">
+          <DataBindings>
+            <Item1 Ref="9" PropertyName="Text" DataMember="DataSource.Item Code" />
+          </DataBindings>
+        </Item1>
+      </Controls>
+    </Item2>
+    <Item3 Ref="10" Name="bottomMarginBand1" ControlType="BottomMarginBand" HeightF="100" />
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v15.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="15.1.5.0" Ref="1" Name="XtraReport" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataSource="#Ref-0" DataMember="DataSource" Version="15.1" PageWidth="827" PageHeight="1169" PaperKind="A4Small" Margins="100, 376, 21, 2">
+  <Bands>
+    <Item1 Ref="2" Name="topMarginBand1" ControlType="TopMarginBand" HeightF="21" />
+    <Item2 Ref="3" ControlType="DetailBand" Name="detailBand1" HeightF="183.333328">
+      <Controls>
+        <Item1 Ref="4" Name="label2" ControlType="XRLabel" SizeF="346,33.0000153" LocationFloat="1.58945713E-05, 150.333313" Padding="2,2,0,0,100" Text="label2">
+          <DataBindings>
+            <Item1 Ref="5" PropertyName="Text" DataMember="DataSource.Name" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="6" Name="barCode1" ControlType="XRBarCode" Padding="10,10,0,0,100" SizeF="346,150.333328" LocationFloat="3.17891427E-05, 0" AutoModule="true">
+          <Symbology Ref="7" Name="Code39" WideNarrowRatio="3" />
+          <DataBindings>
+            <Item1 Ref="8" PropertyName="Text" DataMember="DataSource.Barcode" />
+          </DataBindings>
+        </Item2>
+      </Controls>
+    </Item2>
+    <Item3 Ref="9" Name="bottomMarginBand1" ControlType="BottomMarginBand" HeightF="2.08333325" />
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v15.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

@@ -1,0 +1,19 @@
+D:\Working\Company Tuan\Soft\Solution Complite Git\Server\bin\Test_Report.dll
+D:\Working\Company Tuan\Soft\Solution Complite Git\Server\bin\Test_Report.pdb
+D:\Working\Company Tuan\Soft\Solution Complite Git\Server\bin\Test_Report.xml
+D:\Working\Company Tuan\Soft\Solution Complite Git\Test_Report\obj\Debug\Test_Report.Resources.resources
+D:\Working\Company Tuan\Soft\Solution Complite Git\Test_Report\obj\Debug\Test_Report.vbproj.GenerateResource.Cache
+D:\Working\Company Tuan\Soft\Solution Complite Git\Test_Report\obj\Debug\Test_Report.dll
+D:\Working\Company Tuan\Soft\Solution Complite Git\Test_Report\obj\Debug\Test_Report.xml
+D:\Working\Company Tuan\Soft\Solution Complite Git\Test_Report\obj\Debug\Test_Report.pdb
+E:\eAcademy\Solution Complite Git\Server\bin\Test_Report.dll
+E:\eAcademy\Solution Complite Git\Server\bin\Test_Report.pdb
+E:\eAcademy\Solution Complite Git\Server\bin\Test_Report.xml
+E:\eAcademy\Solution Complite Git\Test_Report\obj\Debug\Test_Report.vbprojAssemblyReference.cache
+E:\eAcademy\Solution Complite Git\Test_Report\obj\Debug\Test_Report.Resources.resources
+E:\eAcademy\Solution Complite Git\Test_Report\obj\Debug\Test_Report.vbproj.GenerateResource.cache
+E:\eAcademy\Solution Complite Git\Test_Report\obj\Debug\Test_Report.vbproj.CoreCompileInputs.cache
+E:\eAcademy\Solution Complite Git\Test_Report\obj\Debug\Test_Report.vbproj.CopyComplete
+E:\eAcademy\Solution Complite Git\Test_Report\obj\Debug\Test_Report.dll
+E:\eAcademy\Solution Complite Git\Test_Report\obj\Debug\Test_Report.xml
+E:\eAcademy\Solution Complite Git\Test_Report\obj\Debug\Test_Report.pdb

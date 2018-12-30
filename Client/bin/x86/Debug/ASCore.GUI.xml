@@ -1,0 +1,197 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASCore.GUI
+</name>
+</assembly>
+<members>
+<member name="P:ASCore.GUI.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ASCore.GUI.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ASCore.GUI.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ASCore.GUI.TExplorer.GetCaption(System.Object)">
+	<summary>
+ Thay đổi ngôn ngữ tùy thuộc ngôn ngữ của User đăng nhập hiện tại
+ </summary>
+	<param name="obj">Đối tượng cần thay đổi.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.sys_FindTab(ASCore.Objects.TLayout)">
+	<summary>
+ Kiểm tra layout có phải dạng TAB hay không
+ </summary>
+	<param name="layout"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.InitializeLayouts(System.Collections.Generic.List{ASCore.Objects.TLayout},System.Object)">
+	<summary>
+ Khởi tạo layout cho entity, tạo các layout gốc (không bào gồm component)
+ </summary>
+	<param name="Layouts">Danh sách layout trên entity</param>
+	<param name="container">container hứng layout con nếu có.</param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CreateLayoutGroupControl(ASCore.Objects.TLayout,System.Int32)">
+	<summary>
+ Khởi tạo các component nghiệp vụ chứa trên layout
+ </summary>
+	<param name="layout">Layout cần xây dựng</param>
+	<param name="index">Chỉ mục (Tab Index) cho layout này</param>
+	<returns>DevExpress.XtraEditors.GroupControl</returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CreateLayoutGroupControlBlank(ASCore.Objects.TLayout,System.Int32)">
+	<summary>
+ Tạo GroupPanel rỗng chèn lấy khoản cách giữa các layout
+ </summary>
+	<param name="layout"></param>
+	<param name="index"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CreateLayoutComponent(ASCore.Objects.TLayout,System.Object)">
+	<summary>
+ Phân loại và khởi tạo component.
+ </summary>
+	<param name="layout">Layout mang thuộc tính</param>
+	<param name="container">Container chứa component được tạo</param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CreateLayoutRelation(ASCore.Objects.TLayout,System.Object)">
+	<summary>
+ Tạo layout dạng Relation
+ </summary>
+	<param name="layout">Layout mang thuộc tính</param>
+	<param name="container">Lớp chứa</param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CreateLayoutButton(ASCore.Objects.TLayout,System.Object)">
+	<summary>
+ Tạo Button cho layout dạng Command
+ </summary>
+	<param name="layout">Layout mang thuộc tính</param>
+	<param name="container">Lớp chứa</param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CreateGridControl(ASCore.Objects.TLayout,System.Object)">
+	<summary>
+ Tạo GridControl chứa các lưới dữ liệu
+ </summary>
+	<param name="layout">Layout mang thuộc tính</param>
+	<param name="container">lớp chứa</param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CreateGirdView(ASCore.Objects.TLayout,DevExpress.XtraGrid.GridControl)">
+	<summary>
+ Tạo lưới dữ liệu
+ </summary>
+	<param name="layout">Layout mang thuộc tính</param>
+	<returns>DevExpress.XtraGrid.Views.Grid.GridView</returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CreateLayoutConditionFormatStyle(System.Collections.Generic.List{ASCore.Objects.TCondition},DevExpress.XtraGrid.Views.Grid.GridView)">
+	<summary>
+ Khởi tạo đối tượng Condition Format cho lưới dữ liệu
+ </summary>
+	<param name="conditions">Danh sách condition format dùng cài đặt</param>
+	<param name="gridview">Lưới dữ liệu sẽ cài đặt</param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CreateLevel(DevExpress.XtraGrid.GridControl)">
+	<summary>
+ Cài đặt thuộc tính TreeLevel cho GridControl
+ </summary>
+	<param name="gridControl">gridControl sẽ cài đặt</param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.PopulateDetailTree(DevExpress.XtraGrid.GridControl,DevExpress.XtraGrid.GridLevelNode,DevExpress.Data.Helpers.DetailNodeInfo[])">
+	<summary>
+ Phân tích các Node con nằm trong TreeLevel của grid
+ </summary>
+	<param name="grid">gridControl cần phân tích</param>
+	<param name="node">Node hiện hành</param>
+	<param name="details">Thông tin chi tiết</param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CreateColumn(ASCore.Objects.TField,System.Int32)">
+	<summary>
+ Tạo danh sách cột trên lưới dữ liệu
+ </summary>
+	<param name="Field">Danh sách fields trên entity thao tác</param>
+	<param name="index">index cho từng column (tăng dần bắt đầu từ 0)</param>
+	<returns>DevExpress.XtraGrid.Columns.GridColumn</returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CreateColumnEditor(ASCore.Objects.TField)">
+	<summary>
+ Tạo RepositoryItem dùng thay thế cho GridColumn trên lưới dữ liệu khi kiểu Field không phải là DataField
+ </summary>
+	<param name="Field">Thuộc tính trên Field cần cài đặt</param>
+	<returns>DevExpress.XtraEditors.Repository.RepositoryItem</returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.GetConvertDataBindingDataSet(System.Windows.Forms.BindingSource)">
+	<summary>
+ Tạo RepositoryItem kiểu LookupField
+ </summary>
+	<param name="newBindingSource"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CreateCalculatedColumn(ASCore.Objects.TField)">
+	<summary>
+ Tạo RepositoryItem kiểu CaculatedField
+ </summary>
+	<param name="Field">Thuộc tính trên Field cần cài đặt</param>
+	<returns>RepositoryItemCustomLookUpEdit. Lớp kế thừa từ RepositoryItemLookUpEdit</returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.Gridview_DrillDown_Click(System.Object,System.EventArgs)">
+	<summary>
+ Sự kiện Double_Click trên cột kiểu CaculatedField
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.CommandButton_Click(System.Object,System.EventArgs)">
+	<summary>
+ Sự kiện nhấn button command và call function
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.GridView_RowUpdated(System.Object,DevExpress.XtraGrid.Views.Base.RowObjectEventArgs)">
+	<summary>
+ Sự kiển khi xuống dòng trên lưới dữ liệu
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.GridView_CellValueChanged(System.Object,DevExpress.XtraGrid.Views.Base.CellValueChangedEventArgs)">
+	<summary>d
+ Sự kiện khi thay đổi giá trị 1 cell trên lưới dữ liệu
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.GridView_FocusedRowChanged(System.Object,DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs)">
+	<summary>
+ Sự kiện khi thay đổi dòng bất kỳ trên lưới dữ liệu (không cần thao tác vào data)
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.GetCaption(System.Object)">
+	<summary>
+ Thay đổi ngôn ngữ tùy thuộc ngôn ngữ của User đăng nhập hiện tại
+ </summary>
+	<param name="obj">Đối tượng cần thay đổi.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.FindControlList(System.Object,System.String)">
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ASCore.GUI.TAXCLient.GetRequestValue">
+	<summary>
+ Chuẩn bị gói dữ liệu để gửi 1 request lên server
+ </summary>
+	<returns>ASCore.Objects.TMethodSource</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

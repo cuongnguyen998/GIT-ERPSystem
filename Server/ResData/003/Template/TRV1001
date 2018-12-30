@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="16.1.2.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v16.1, Version=16.1.2.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" Margins="17, 0, 90, 100" PageWidth="850" PageHeight="1100" Version="16.1" DataMember="DataSource" DataSource="#Ref-0" Dpi="100">
+  <CalculatedFields>
+    <Item1 Ref="2" Name="calculatedField1" Expression="[Description]" DataMember="DataSource">
+      <Scripts Ref="3" OnGetValue="calculatedField1_GetValue" />
+    </Item1>
+  </CalculatedFields>
+  <Bands>
+    <Item1 Ref="4" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="89.5833359" Dpi="100">
+      <Controls>
+        <Item1 Ref="5" ControlType="XRTable" Name="table1" TextAlignment="MiddleCenter" SizeF="608.999756,41.6666679" LocationFloat="0, 47.9166679" Dpi="100" Font="Times New Roman, 12pt, style=Bold" Borders="All">
+          <Rows>
+            <Item1 Ref="6" ControlType="XRTableRow" Name="tableRow1" Weight="1" Dpi="100">
+              <Cells>
+                <Item1 Ref="7" ControlType="XRTableCell" Name="tableCell1" Weight="0.3636362601838139" Text="Ngày thứ" TextAlignment="MiddleCenter" Dpi="100">
+                  <StylePriority Ref="8" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="9" ControlType="XRTableCell" Name="tableCell2" Weight="1.3471072743333847" Text="Địa điểm xuất phát" Dpi="100" />
+                <Item3 Ref="10" ControlType="XRTableCell" Name="tableCell3" Weight="1.2892564654828016" Text="Địa điểm đến" Dpi="100" />
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="11" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item1>
+    <Item2 Ref="12" ControlType="DetailBand" Name="detailBand1" HeightF="87.66664" Dpi="100">
+      <Scripts Ref="13" OnAfterPrint="detailBand1_AfterPrint" OnBeforePrint="detailBand1_BeforePrint" />
+      <Controls>
+        <Item1 Ref="14" ControlType="XRLabel" Name="label1" Text="label1" SizeF="74.151474,23" LocationFloat="0, 0" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" ForeColor="Blue" Padding="2,2,0,0,100" Borders="All">
+          <DataBindings>
+            <Item1 Ref="15" PropertyName="Text" DataMember="DataSource.Operation" />
+          </DataBindings>
+          <StylePriority Ref="16" UseFont="false" UseForeColor="false" UseBorders="false" />
+        </Item1>
+        <Item2 Ref="17" ControlType="XRRichText" Name="richText1" SerializableRtfString="ewBcAHIAdABmADEAXABhAG4AcwBpAGMAcABnADEAMgA1ADIADQAKAHsADQAKAFwAZgBvAG4AdAB0AGIAbAANAAoAewBcAGYAMAAgAFQAaQBtAGUAcwAgAE4AZQB3ACAAUgBvAG0AYQBuADsAfQANAAoAfQANAAoAewANAAoAXABjAG8AbABvAHIAdABiAGwADQAKADsADQAKAFwAcgBlAGQAMABcAGcAcgBlAGUAbgAwAFwAYgBsAHUAZQAyADUANQA7AA0ACgBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAA7AA0ACgB9AA0ACgB7AFwAaQBuAGYAbwB7AFwAYwByAGUAYQB0AGkAbQBcAHkAcgAyADAAMQA3AFwAbQBvADEAMABcAGQAeQA1AFwAaAByADEAMABcAG0AaQBuADAAfQB7AFwAdgBlAHIAcwBpAG8AbgAxAH0AfQBcAG4AbwB1AGkAYwBvAG0AcABhAHQAXABzAHAAbAB5AHQAdwBuAGkAbgBlAFwAaAB0AG0AYQB1AHQAcwBwAHsAXABzAGUAYwB0AGQAXABwAGEAcgBkAFwAcABsAGEAaQBuAFwAcQBsAHsAXABmAHMAMgAwAFwAYwBmADIAIAByAGkAYwBoAFQAZQB4AHQAMQB9AFwAcABhAHIAfQANAAoAfQANAAoA" SizeF="608.666443,41.6666679" LocationFloat="0.333388656, 45.9999733" Dpi="100" Font="Times New Roman, 9.75pt" Borders="All">
+          <DataBindings>
+            <Item1 Ref="18" PropertyName="Rtf" DataMember="DataSource.Description" />
+            <Item2 Ref="19" PropertyName="Html" DataMember="DataSource.Description" />
+          </DataBindings>
+          <StylePriority Ref="20" UseBorders="false" />
+          <Scripts Ref="21" OnPreviewClick="richText1_PreviewClick" OnTextChanged="richText1_TextChanged" />
+        </Item2>
+        <Item3 Ref="22" ControlType="XRLabel" Name="label2" Text="label2" SizeF="273.462677,23" LocationFloat="74.15148, 0" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" ForeColor="Blue" Padding="2,2,0,0,100" Borders="All">
+          <DataBindings>
+            <Item1 Ref="23" PropertyName="Text" DataMember="DataSource.Name From" />
+          </DataBindings>
+          <StylePriority Ref="24" UseFont="false" UseForeColor="false" UseBorders="false" />
+        </Item3>
+        <Item4 Ref="25" ControlType="XRLabel" Name="label3" Text="label3" SizeF="261.38562,23" LocationFloat="347.6142, 0" Dpi="100" Font="Times New Roman, 9.75pt, style=Bold" ForeColor="Blue" Padding="2,2,0,0,100" Borders="All">
+          <DataBindings>
+            <Item1 Ref="26" PropertyName="Text" DataMember="DataSource.Name To" />
+          </DataBindings>
+          <StylePriority Ref="27" UseFont="false" UseForeColor="false" UseBorders="false" />
+        </Item4>
+        <Item5 Ref="28" ControlType="XRLabel" Name="label4" Text="Diễn giải" SizeF="608.999756,23.0000019" LocationFloat="0, 22.9999866" Dpi="100" Font="Times New Roman, 10pt" BackColor="Silver" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="29" UseFont="false" UseBackColor="false" UseBorders="false" />
+        </Item5>
+      </Controls>
+    </Item2>
+    <Item3 Ref="30" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="100" Dpi="100" />
+  </Bands>
+  <Scripts Ref="31" OnPrintProgress="XtraReport_PrintProgress" OnDataSourceDemanded="XtraReport_DataSourceDemanded" OnDataSourceRowChanged="XtraReport_DataSourceRowChanged" OnAfterPrint="XtraReport_AfterPrint" OnBeforePrint="XtraReport_BeforePrint" />
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v16.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

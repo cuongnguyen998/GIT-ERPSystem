@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="15.1.5.0" Ref="1" Name="XtraReport" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataSource="#Ref-0" DataMember="DataSource" Version="15.1" PageWidth="850" PageHeight="1100" Margins="31, 12, 100, 100">
+  <Bands>
+    <Item1 Ref="2" Name="topMarginBand1" ControlType="TopMarginBand" HeightF="100">
+      <Controls>
+        <Item1 Ref="3" Name="label17" ControlType="XRLabel" SizeF="807.000061,45.9166679" LocationFloat="0, 10.0000067" Font="Times New Roman, 14pt, style=Bold" Padding="2,2,0,0,96" TextAlignment="TopCenter" Text="BÁO CÁO LỊCH SỬ QUẸT VÂN TAY">
+          <StylePriority Ref="4" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="5" Name="label16" ControlType="XRLabel" SizeF="100,23" LocationFloat="700, 77" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Mã máy">
+          <StylePriority Ref="6" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="7" Name="label15" ControlType="XRLabel" SizeF="100,23" LocationFloat="600, 77" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Thời gian">
+          <StylePriority Ref="8" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="9" Name="label14" ControlType="XRLabel" SizeF="100,23" LocationFloat="499.999939, 77" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Ngày làm việc">
+          <StylePriority Ref="10" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="11" Name="label13" ControlType="XRLabel" SizeF="100,23" LocationFloat="400, 77" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Mã Ca">
+          <StylePriority Ref="12" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="13" Name="label12" ControlType="XRLabel" SizeF="100,23" LocationFloat="300, 77" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Tên NV">
+          <StylePriority Ref="14" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="15" Name="label11" ControlType="XRLabel" SizeF="100,23" LocationFloat="200, 77" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Mã NV">
+          <StylePriority Ref="16" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="17" Name="label10" ControlType="XRLabel" SizeF="100,23" LocationFloat="100, 77" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Phòng ban">
+          <StylePriority Ref="18" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="19" Name="label9" ControlType="XRLabel" SizeF="100,23" LocationFloat="0, 77" Font="Times New Roman, 9.75pt, style=Bold" Padding="2,2,0,0,100" Borders="All" TextAlignment="TopCenter" Text="Mã P.Ban">
+          <StylePriority Ref="20" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item9>
+      </Controls>
+    </Item1>
+    <Item2 Ref="21" ControlType="DetailBand" Name="detailBand1" HeightF="23">
+      <Controls>
+        <Item1 Ref="22" Name="label8" ControlType="XRLabel" WordWrap="false" SizeF="100,23" LocationFloat="700, 0" Padding="2,2,0,0,100" Borders="All" Text="label8">
+          <DataBindings>
+            <Item1 Ref="23" PropertyName="Text" DataMember="DataSource.CtrlID" />
+          </DataBindings>
+          <StylePriority Ref="24" UseBorders="false" />
+        </Item1>
+        <Item2 Ref="25" Name="label7" ControlType="XRLabel" WordWrap="false" SizeF="100,23" LocationFloat="600, 0" Padding="2,2,0,0,100" Borders="All" Text="label7">
+          <DataBindings>
+            <Item1 Ref="26" PropertyName="Text" DataMember="DataSource.Time" />
+          </DataBindings>
+          <StylePriority Ref="27" UseBorders="false" />
+        </Item2>
+        <Item3 Ref="28" Name="label6" ControlType="XRLabel" WordWrap="false" SizeF="100,23" LocationFloat="500, 0" Padding="2,2,0,0,100" Borders="All" Text="label6">
+          <DataBindings>
+            <Item1 Ref="29" FormatString="{0:yyyy-MM-dd}" PropertyName="Text" DataMember="DataSource.Working Date" />
+          </DataBindings>
+          <StylePriority Ref="30" UseBorders="false" />
+        </Item3>
+        <Item4 Ref="31" Name="label5" ControlType="XRLabel" WordWrap="false" SizeF="100,23" LocationFloat="400, 0" Padding="2,2,0,0,100" Borders="All" Text="label5">
+          <DataBindings>
+            <Item1 Ref="32" PropertyName="Text" DataMember="DataSource.Work Shift Code" />
+          </DataBindings>
+          <StylePriority Ref="33" UseBorders="false" />
+        </Item4>
+        <Item5 Ref="34" Name="label4" ControlType="XRLabel" WordWrap="false" SizeF="100,23" LocationFloat="300, 0" Padding="2,2,0,0,100" Borders="All" Text="label4">
+          <DataBindings>
+            <Item1 Ref="35" PropertyName="Text" DataMember="DataSource.Name" />
+          </DataBindings>
+          <StylePriority Ref="36" UseBorders="false" />
+        </Item5>
+        <Item6 Ref="37" Name="label3" ControlType="XRLabel" WordWrap="false" SizeF="100,23" LocationFloat="200, 0" Padding="2,2,0,0,100" Borders="All">
+          <DataBindings>
+            <Item1 Ref="38" PropertyName="Text" DataMember="DataSource.Name" />
+          </DataBindings>
+          <StylePriority Ref="39" UseBorders="false" />
+        </Item6>
+        <Item7 Ref="40" Name="label2" ControlType="XRLabel" WordWrap="false" SizeF="100,23" LocationFloat="100, 0" Padding="2,2,0,0,100" Borders="All" Text="label2">
+          <DataBindings>
+            <Item1 Ref="41" PropertyName="Text" DataMember="DataSource.Department Name" />
+          </DataBindings>
+          <StylePriority Ref="42" UseBorders="false" />
+        </Item7>
+        <Item8 Ref="43" Name="label1" ControlType="XRLabel" WordWrap="false" SizeF="100,23" LocationFloat="0, 0" Padding="2,2,0,0,100" Borders="All" Text="label1">
+          <DataBindings>
+            <Item1 Ref="44" PropertyName="Text" DataMember="DataSource.Department" />
+          </DataBindings>
+          <StylePriority Ref="45" UseBorders="false" />
+        </Item8>
+      </Controls>
+    </Item2>
+    <Item3 Ref="46" Name="bottomMarginBand1" ControlType="BottomMarginBand" HeightF="100" />
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v15.1" Ref="0" Content="~Xtra#NULL" Type="System.Data.DataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>
